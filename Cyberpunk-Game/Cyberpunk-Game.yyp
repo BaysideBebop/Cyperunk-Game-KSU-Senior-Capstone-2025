@@ -37,6 +37,7 @@
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
     {"id":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"SPR_Mine_Bg","path":"sprites/SPR_Mine_Bg/SPR_Mine_Bg.yy",},},
     {"id":{"name":"SPR_TempPlayer","path":"sprites/SPR_TempPlayer/SPR_TempPlayer.yy",},},
     {"id":{"name":"SPR_TempWall","path":"sprites/SPR_TempWall/SPR_TempWall.yy",},},
   ],
