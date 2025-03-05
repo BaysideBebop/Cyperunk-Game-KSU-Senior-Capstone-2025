@@ -42,6 +42,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"SPR_Gun","path":"sprites/SPR_Gun/SPR_Gun.yy",},},
     {"id":{"name":"SPR_MarkerDebug","path":"sprites/SPR_MarkerDebug/SPR_MarkerDebug.yy",},},
+    {"id":{"name":"SPR_MetalSheet","path":"sprites/SPR_MetalSheet/SPR_MetalSheet.yy",},},
     {"id":{"name":"SPR_Mine_Bg","path":"sprites/SPR_Mine_Bg/SPR_Mine_Bg.yy",},},
     {"id":{"name":"SPR_TempPlayer","path":"sprites/SPR_TempPlayer/SPR_TempPlayer.yy",},},
     {"id":{"name":"SPR_TempStairs","path":"sprites/SPR_TempStairs/SPR_TempStairs.yy",},},
