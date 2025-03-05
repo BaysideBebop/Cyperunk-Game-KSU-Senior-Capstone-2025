@@ -1,6 +1,6 @@
-var _keyRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
-var _keyLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
-var _keyJump = keyboard_check(vk_space)
+var _keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
+var _keyLeft = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var _keyJump = keyboard_check(vk_space) or keyboard_check(ord("W"));
 
 hsp = (_keyRight - _keyLeft) * hspWalk;
 
