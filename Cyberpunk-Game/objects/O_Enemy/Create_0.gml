@@ -4,6 +4,7 @@ hsp = hspWalk;
 vsp = 0;
 vspJump = -6;
 canJump = 0;
+grounded = false;
 
 hp = 4;
 flash = 0;

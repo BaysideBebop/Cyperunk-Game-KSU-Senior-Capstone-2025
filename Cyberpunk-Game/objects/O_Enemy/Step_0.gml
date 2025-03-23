@@ -1,5 +1,11 @@
 vsp = vsp + grv;
 
+//Don't walk off edges
+if (grounded) && (afraidofheights) && (!place_meeting(x + hsp, y + 1, O_Wall))
+{
+	hsp = -hsp	
+}
+
 if (place_meeting(x + hsp, y, O_Wall))
 {
 
@@ -18,3 +24,12 @@ if (place_meeting(x, y + vsp, O_Wall))
 	vsp = 0;
 }
 y += vsp;
+
+if (!place_meeting(x,y+1,O_Wall))
+{
+	grounded = false;
+}
+else
+{
+	grounded = true;	
+}

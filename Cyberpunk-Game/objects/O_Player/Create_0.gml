@@ -5,4 +5,10 @@ hspWalk = 3.5;
 vspJump = -6;
 canJump = 0;
 
-image_speed = 0
+playerhp = 3;
+global.playerhpglob = playerhp;
+canbehit = 1;
+hitfrom = 0;
+
+flash = 0;
+image_speed = 0;
