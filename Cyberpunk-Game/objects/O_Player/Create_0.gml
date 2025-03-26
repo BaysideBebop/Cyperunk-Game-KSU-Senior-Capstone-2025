@@ -10,10 +10,5 @@ global.playerhpglob = playerhp;
 canbehit = 1;
 hitfrom = 0;
 
-healthbar_width = 144
-healthbar_height = 48;
-healthbar_x = (150) - (healthbar_width/2)
-healthbar_y = ystart - 50;
-
 flash = 0;
 image_speed = 0;
