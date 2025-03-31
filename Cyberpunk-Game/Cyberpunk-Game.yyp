@@ -56,6 +56,7 @@
     {"id":{"name":"SPR_MetalTileSheet","path":"sprites/SPR_MetalTileSheet/SPR_MetalTileSheet.yy",},},
     {"id":{"name":"SPR_Mine_Bg","path":"sprites/SPR_Mine_Bg/SPR_Mine_Bg.yy",},},
     {"id":{"name":"SPR_MinesTileSheetv2","path":"sprites/SPR_MinesTileSheetv2/SPR_MinesTileSheetv2.yy",},},
+    {"id":{"name":"SPR_MinesTileSheetv3","path":"sprites/SPR_MinesTileSheetv3/SPR_MinesTileSheetv3.yy",},},
     {"id":{"name":"SPR_MineTileSheet","path":"sprites/SPR_MineTileSheet/SPR_MineTileSheet.yy",},},
     {"id":{"name":"SPR_NEWMetalTileSheet","path":"sprites/SPR_NEWMetalTileSheet/SPR_NEWMetalTileSheet.yy",},},
     {"id":{"name":"SPR_Player","path":"sprites/SPR_Player/SPR_Player.yy",},},
