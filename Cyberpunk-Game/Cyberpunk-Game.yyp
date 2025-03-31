@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Cyberpunk-Game",
   "resources":[
@@ -51,6 +51,7 @@
     {"id":{"name":"SPR_EnemyDeadPlaceholder","path":"sprites/SPR_EnemyDeadPlaceholder/SPR_EnemyDeadPlaceholder.yy",},},
     {"id":{"name":"SPR_EnemyPlaceholder","path":"sprites/SPR_EnemyPlaceholder/SPR_EnemyPlaceholder.yy",},},
     {"id":{"name":"SPR_Gun","path":"sprites/SPR_Gun/SPR_Gun.yy",},},
+    {"id":{"name":"SPR_Health_Pickup","path":"sprites/SPR_Health_Pickup/SPR_Health_Pickup.yy",},},
     {"id":{"name":"SPR_MarkerDebug","path":"sprites/SPR_MarkerDebug/SPR_MarkerDebug.yy",},},
     {"id":{"name":"SPR_MetalSheet","path":"sprites/SPR_MetalSheet/SPR_MetalSheet.yy",},},
     {"id":{"name":"SPR_MetalTileSheet","path":"sprites/SPR_MetalTileSheet/SPR_MetalTileSheet.yy",},},
