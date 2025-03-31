@@ -67,6 +67,7 @@
     {"id":{"name":"TS_Cave","path":"tilesets/TS_Cave/TS_Cave.yy",},},
     {"id":{"name":"TS_MetalPath","path":"tilesets/TS_MetalPath/TS_MetalPath.yy",},},
     {"id":{"name":"Ts_MineTile","path":"tilesets/Ts_MineTile/Ts_MineTile.yy",},},
+    {"id":{"name":"TS_MineV2","path":"tilesets/TS_MineV2/TS_MineV2.yy",},},
     {"id":{"name":"TS_NewMetalTilesheet","path":"tilesets/TS_NewMetalTilesheet/TS_NewMetalTilesheet.yy",},},
   ],
   "resourceType":"GMProject",
