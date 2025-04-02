@@ -11,3 +11,13 @@ flash = 0;
 hitfrom = 0;
 
 image_speed = 0
+
+if (hasweapon)
+{
+	mygun = instance_create_layer(x,y,"Gun",O_EGun)	
+	with (mygun)
+	{
+		owner = other.id	
+	}
+}
+else mygun = noone;
