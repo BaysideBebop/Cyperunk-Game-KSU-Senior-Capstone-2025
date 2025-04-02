@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SPR_EGun",
-    "path":"sprites/SPR_EGun/SPR_EGun.yy",
+    "name":"SPR_Sixshooter",
+    "path":"sprites/SPR_Sixshooter/SPR_Sixshooter.yy",
   },
   "spriteMaskId":null,
   "visible":true,
