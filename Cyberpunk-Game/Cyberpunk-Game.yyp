@@ -51,6 +51,7 @@
     {"id":{"name":"SH_White","path":"shaders/SH_White/SH_White.yy",},},
     {"id":{"name":"SND_PlayerShot","path":"sounds/SND_PlayerShot/SND_PlayerShot.yy",},},
     {"id":{"name":"SPR_Bullet","path":"sprites/SPR_Bullet/SPR_Bullet.yy",},},
+    {"id":{"name":"SPR_CrystalTileSheet","path":"sprites/SPR_CrystalTileSheet/SPR_CrystalTileSheet.yy",},},
     {"id":{"name":"SPR_EBullet","path":"sprites/SPR_EBullet/SPR_EBullet.yy",},},
     {"id":{"name":"SPR_EGun","path":"sprites/SPR_EGun/SPR_EGun.yy",},},
     {"id":{"name":"SPR_EnemyDeadPlaceholder","path":"sprites/SPR_EnemyDeadPlaceholder/SPR_EnemyDeadPlaceholder.yy",},},
