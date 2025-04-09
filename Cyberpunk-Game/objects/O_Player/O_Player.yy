@@ -41,6 +41,9 @@
     "name":"SPR_Player",
     "path":"sprites/SPR_Player/SPR_Player.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"SPR_Player",
+    "path":"sprites/SPR_Player/SPR_Player.yy",
+  },
   "visible":true,
 }

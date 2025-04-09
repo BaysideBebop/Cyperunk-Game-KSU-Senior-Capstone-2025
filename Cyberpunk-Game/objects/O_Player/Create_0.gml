@@ -1,11 +1,13 @@
+image_index = 0;
+image_speed = 0;
+
 state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
 
 enum PLAYERSTATE
 {
 	FREE,
-	ATTACK_SLASH,
-	ATTACK_COMBO
+	ATTACKSLASH
 }
 
 grv = 0.3;
@@ -21,4 +23,3 @@ canbehit = 1;
 hitfrom = 0;
 
 flash = 0;
-image_speed = 0;
