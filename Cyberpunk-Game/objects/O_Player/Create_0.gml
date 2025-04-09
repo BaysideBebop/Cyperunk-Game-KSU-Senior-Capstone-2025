@@ -1,3 +1,13 @@
+state = PLAYERSTATE.FREE;
+hitByAttack = ds_list_create();
+
+enum PLAYERSTATE
+{
+	FREE,
+	ATTACK_SLASH,
+	ATTACK_COMBO
+}
+
 grv = 0.3;
 hsp = 0;
 vsp = 0;

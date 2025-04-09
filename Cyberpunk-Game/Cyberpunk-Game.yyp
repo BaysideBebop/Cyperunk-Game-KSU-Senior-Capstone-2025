@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Cyberpunk-Game",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -26,11 +26,12 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Cyberpunk-Game",
   "resources":[
@@ -48,6 +49,9 @@
     {"id":{"name":"O_Stairs","path":"objects/O_Stairs/O_Stairs.yy",},},
     {"id":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},},
     {"id":{"name":"R_Cave","path":"rooms/R_Cave/R_Cave.yy",},},
+    {"id":{"name":"SCR_PlayerStateAttackCombo","path":"scripts/SCR_PlayerStateAttackCombo/SCR_PlayerStateAttackCombo.yy",},},
+    {"id":{"name":"SCR_PlayerStateAttackSlash","path":"scripts/SCR_PlayerStateAttackSlash/SCR_PlayerStateAttackSlash.yy",},},
+    {"id":{"name":"SCR_PlayerStateFree","path":"scripts/SCR_PlayerStateFree/SCR_PlayerStateFree.yy",},},
     {"id":{"name":"SH_White","path":"shaders/SH_White/SH_White.yy",},},
     {"id":{"name":"SND_PlayerShot","path":"sounds/SND_PlayerShot/SND_PlayerShot.yy",},},
     {"id":{"name":"SPR_Bullet","path":"sprites/SPR_Bullet/SPR_Bullet.yy",},},
