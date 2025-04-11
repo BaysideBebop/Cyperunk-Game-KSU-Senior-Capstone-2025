@@ -78,6 +78,7 @@
     {"id":{"name":"SPR_PlayerDeadPlaceholder","path":"sprites/SPR_PlayerDeadPlaceholder/SPR_PlayerDeadPlaceholder.yy",},},
     {"id":{"name":"SPR_PlayerSlashAttack","path":"sprites/SPR_PlayerSlashAttack/SPR_PlayerSlashAttack.yy",},},
     {"id":{"name":"SPR_PlayerSlashAttackHB","path":"sprites/SPR_PlayerSlashAttackHB/SPR_PlayerSlashAttackHB.yy",},},
+    {"id":{"name":"SPR_SaveRoom","path":"sprites/SPR_SaveRoom/SPR_SaveRoom.yy",},},
     {"id":{"name":"SPR_Sixshooter","path":"sprites/SPR_Sixshooter/SPR_Sixshooter.yy",},},
     {"id":{"name":"SPR_TempHPBar","path":"sprites/SPR_TempHPBar/SPR_TempHPBar.yy",},},
     {"id":{"name":"SPR_TempPlayer","path":"sprites/SPR_TempPlayer/SPR_TempPlayer.yy",},},
