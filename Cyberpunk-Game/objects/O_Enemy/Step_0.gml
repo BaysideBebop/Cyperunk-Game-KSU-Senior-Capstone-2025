@@ -11,6 +11,9 @@ if (place_meeting(x + hsp, y, O_Wall))
 
 	hsp = -hsp;
 }
+
+if (stationary) hsp = 0;
+
 x += hsp;
 
 if (place_meeting(x, y + vsp, O_Wall))
