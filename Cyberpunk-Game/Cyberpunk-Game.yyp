@@ -89,6 +89,7 @@
     {"id":{"name":"SPR_TempPlayer","path":"sprites/SPR_TempPlayer/SPR_TempPlayer.yy",},},
     {"id":{"name":"SPR_TempStairs","path":"sprites/SPR_TempStairs/SPR_TempStairs.yy",},},
     {"id":{"name":"SPR_TempWall","path":"sprites/SPR_TempWall/SPR_TempWall.yy",},},
+    {"id":{"name":"SPR_TownTiles","path":"sprites/SPR_TownTiles/SPR_TownTiles.yy",},},
     {"id":{"name":"TS_Cave","path":"tilesets/TS_Cave/TS_Cave.yy",},},
     {"id":{"name":"TS_Crystals","path":"tilesets/TS_Crystals/TS_Crystals.yy",},},
     {"id":{"name":"TS_Electric_Props","path":"tilesets/TS_Electric_Props/TS_Electric_Props.yy",},},
