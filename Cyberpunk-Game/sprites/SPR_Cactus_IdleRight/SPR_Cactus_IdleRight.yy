@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"SPR_CactusIdleRight",
+  "%Name":"SPR_Cactus_IdleRight",
   "bboxMode":0,
   "bbox_bottom":77,
   "bbox_left":0,
@@ -24,7 +24,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"6bcf6fe3-216d-44c7-be5c-a51c5ca262cb","blendMode":0,"displayName":"default","isLocked":false,"name":"6bcf6fe3-216d-44c7-be5c-a51c5ca262cb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"SPR_CactusIdleRight",
+  "name":"SPR_Cactus_IdleRight",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -36,7 +36,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"SPR_CactusIdleRight",
+    "%Name":"SPR_Cactus_IdleRight",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"SPR_CactusIdleRight",
+    "name":"SPR_Cactus_IdleRight",
     "playback":1,
     "playbackSpeed":5.0,
     "playbackSpeedType":0,
@@ -74,16 +74,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc021573-257e-4298-9f70-73d136ecc230","path":"sprites/SPR_CactusIdleRight/SPR_CactusIdleRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc021573-257e-4298-9f70-73d136ecc230","path":"sprites/SPR_Cactus_IdleRight/SPR_Cactus_IdleRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"99b0c2c1-3c5a-4a83-9fb7-84411f6fadda","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3008e6ed-235b-4dc1-9424-b7b2d8e24dd2","path":"sprites/SPR_CactusIdleRight/SPR_CactusIdleRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3008e6ed-235b-4dc1-9424-b7b2d8e24dd2","path":"sprites/SPR_Cactus_IdleRight/SPR_Cactus_IdleRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9c80f45e-5741-48d1-82f5-1ce6e8089889","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3daa9607-4f42-48cb-ae62-57b6c827e2b4","path":"sprites/SPR_CactusIdleRight/SPR_CactusIdleRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3daa9607-4f42-48cb-ae62-57b6c827e2b4","path":"sprites/SPR_Cactus_IdleRight/SPR_Cactus_IdleRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2f509d71-feed-4de7-947d-0897c72c1419","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"372aa533-b3e9-4ed4-9c89-a392c22e679f","path":"sprites/SPR_CactusIdleRight/SPR_CactusIdleRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"372aa533-b3e9-4ed4-9c89-a392c22e679f","path":"sprites/SPR_Cactus_IdleRight/SPR_Cactus_IdleRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e5ec3fb7-365f-4125-a48a-e8fced709861","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
