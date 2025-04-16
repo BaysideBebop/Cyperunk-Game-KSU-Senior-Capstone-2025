@@ -3,15 +3,15 @@ function SCR_PlayerStateAttackSlash()
 	hsp = 0;
 
 	//Start of attack
-	if (sprite_index != SPR_PlayerSlashAttackRight)
+	if (sprite_index != SPR_PlayerSlashAttack)
 	{
-		sprite_index = SPR_PlayerSlashAttackRight;
+		sprite_index = SPR_PlayerSlashAttack;
 		image_index = 0;
 		image_speed = 1;
 		ds_list_clear(hitByAttack);
 	}
 
-	mask_index = SPR_PlayerSlashAttackRightHB
+	mask_index = SPR_PlayerSlashAttackHB
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x,y,O_Enemy,hitByAttackNow,false);
 	if (hits > 0)
