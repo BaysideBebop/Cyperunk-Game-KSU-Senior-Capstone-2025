@@ -8,7 +8,6 @@ if (grounded) && (afraidofheights) && (!place_meeting(x + hsp, y + 1, O_Wall))
 
 if (place_meeting(x + hsp, y, O_Wall))
 {
-
 	hsp = -hsp;
 }
 
@@ -50,13 +49,18 @@ if (!place_meeting(x,y+1,O_Wall))
 }
 else
 {
-	if (hsp == 0)
+	if (instance_exists(O_Player))
 	{
-		sprite_index = SPR_PlayerIdleRight;
-	}
-	if (hsp == 0)
-	{
-		sprite_index = SPR_PlayerIdleLeft;
+		if (stationary) && (O_Player.x < x)
+		{
+			sprite_index = SPR_PlayerIdleLeft;
+			looking = -1;
+		}
+		if (stationary) && (O_Player.x > x)
+		{
+			sprite_index = SPR_PlayerIdleRight;
+			looking = 1;
+		}
 	}
 	if (hsp != 0) && (sign(hsp) > 0)
 	{

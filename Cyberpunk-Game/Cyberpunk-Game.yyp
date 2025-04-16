@@ -45,6 +45,7 @@
     {"id":{"name":"O_Gun","path":"objects/O_Gun/O_Gun.yy",},},
     {"id":{"name":"O_HUD","path":"objects/O_HUD/O_HUD.yy",},},
     {"id":{"name":"O_MarkerDebug","path":"objects/O_MarkerDebug/O_MarkerDebug.yy",},},
+    {"id":{"name":"O_Melee","path":"objects/O_Melee/O_Melee.yy",},},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
     {"id":{"name":"O_Stairs","path":"objects/O_Stairs/O_Stairs.yy",},},
     {"id":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},},

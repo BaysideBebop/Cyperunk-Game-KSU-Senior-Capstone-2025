@@ -4,6 +4,7 @@ function SCR_PlayerStateAttackSlash()
 	layer_set_visible("LowerGun",false)
 	hsp = 0;
 	global.PlayerSwinging = true;
+	canbehit = 0
 
 	//Start of attack
 	if (sprite_index != SPR_PlayerSlashAttackRight) && (global.GunLayer > 0)
@@ -48,6 +49,7 @@ function SCR_PlayerStateAttackSlash()
 	if (SCR_AnimationEnd())
 	{
 		state = PLAYERSTATE.FREE
+		canbehit = 1
 		layer_set_visible("Gun",true)
 		layer_set_visible("LowerGun",true)
 		global.PlayerSwinging = false;
