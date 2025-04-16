@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"SPR_PlayerWalkRightLookLeft",
+  "%Name":"SPR_PlayerFalling",
   "bboxMode":0,
   "bbox_bottom":47,
   "bbox_left":0,
-  "bbox_right":30,
+  "bbox_right":31,
   "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,17 +12,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c81b4a89-d7b4-4089-994b-e743729b8187","name":"c81b4a89-d7b4-4089-994b-e743729b8187","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5a710f1c-31dc-4e16-b972-0eeed4afff4d","name":"5a710f1c-31dc-4e16-b972-0eeed4afff4d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"fb91e29d-e89d-4163-af76-f6a34980e98f","name":"fb91e29d-e89d-4163-af76-f6a34980e98f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0572559f-b682-4665-9166-447870e1bd2f","name":"0572559f-b682-4665-9166-447870e1bd2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7eea8068-32b9-4667-bcb6-12fa544243cb","blendMode":0,"displayName":"default","isLocked":false,"name":"7eea8068-32b9-4667-bcb6-12fa544243cb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d29feac9-771a-4108-8c86-76b99cddcd20","blendMode":0,"displayName":"default","isLocked":false,"name":"d29feac9-771a-4108-8c86-76b99cddcd20","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"SPR_PlayerWalkRightLookLeft",
+  "name":"SPR_PlayerFalling",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"SPR_PlayerWalkRightLookLeft",
+    "%Name":"SPR_PlayerFalling",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"SPR_PlayerWalkRightLookLeft",
+    "name":"SPR_PlayerFalling",
     "playback":1,
     "playbackSpeed":5.0,
     "playbackSpeedType":0,
@@ -72,11 +72,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c81b4a89-d7b4-4089-994b-e743729b8187","path":"sprites/SPR_PlayerWalkRightLookLeft/SPR_PlayerWalkRightLookLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"67ddf19f-21f0-49ec-95a4-b61153656c68","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fb91e29d-e89d-4163-af76-f6a34980e98f","path":"sprites/SPR_PlayerFalling/SPR_PlayerFalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"34ac2548-a898-4d58-bc2b-a952c9839f82","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5a710f1c-31dc-4e16-b972-0eeed4afff4d","path":"sprites/SPR_PlayerWalkRightLookLeft/SPR_PlayerWalkRightLookLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6b2663ce-7ff2-4adc-a999-b8ab234c822a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0572559f-b682-4665-9166-447870e1bd2f","path":"sprites/SPR_PlayerFalling/SPR_PlayerFalling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d5e53e0f-f1b2-47cf-b526-756fb6e74a5f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

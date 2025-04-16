@@ -7,7 +7,7 @@ function SCR_PlayerStateAttackSlash()
 	{
 		sprite_index = SPR_PlayerSlashAttackRight;
 		image_index = 0;
-		image_speed = 0.5;
+		image_speed = 1;
 		ds_list_clear(hitByAttack);
 	}
 
@@ -33,10 +33,9 @@ function SCR_PlayerStateAttackSlash()
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = SPR_Player
 	if (SCR_AnimationEnd())
 	{
-		sprite_index = SPR_Player
+		sprite_index = SPR_PlayerIdleRight
 		state = PLAYERSTATE.FREE
 	}
 }

@@ -38,12 +38,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SPR_Player",
-    "path":"sprites/SPR_Player/SPR_Player.yy",
+    "name":"SPR_PlayerIdleRight",
+    "path":"sprites/SPR_PlayerIdleRight/SPR_PlayerIdleRight.yy",
   },
-  "spriteMaskId":{
-    "name":"SPR_Player",
-    "path":"sprites/SPR_Player/SPR_Player.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

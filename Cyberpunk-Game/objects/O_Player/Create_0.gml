@@ -1,6 +1,3 @@
-image_index = 0;
-image_speed = 0;
-
 state = PLAYERSTATE.FREE;
 hitByAttack = ds_list_create();
 
@@ -23,3 +20,4 @@ canbehit = 1;
 hitfrom = 0;
 
 flash = 0;
+idledir = 1;

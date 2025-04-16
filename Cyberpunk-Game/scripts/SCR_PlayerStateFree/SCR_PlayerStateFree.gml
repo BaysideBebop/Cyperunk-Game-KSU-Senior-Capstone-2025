@@ -37,7 +37,42 @@ if (place_meeting(x, y + vsp, O_Wall))
 	vsp = 0;
 }
 y += vsp;
-image_speed = 0
+
+//Animation
+if (!place_meeting(x,y+1,O_Wall))
+{
+	sprite_index = SPR_PlayerFalling;
+	image_speed = 0;
+	if (sign(hsp) > 0)
+	{
+		image_index = 0;
+	}
+	else image_index = 1;
+}
+else
+{
+	if (hsp == 0) && (idledir > 0)
+	{
+		sprite_index = SPR_PlayerIdleRight;
+	}
+	if (hsp == 0) && (idledir < 0)
+	{
+		sprite_index = SPR_PlayerIdleLeft;
+	}
+	if (hsp != 0) && (sign(hsp) > 0)
+	{
+		sprite_index = SPR_PlayerWalkRightLookRight;
+		image_speed = 1;
+		idledir = sign(hsp);
+	}
+	if (hsp != 0) && (sign(hsp) < 0)
+	{
+		sprite_index = SPR_PlayerWalkLeftLookLeft;
+		image_speed = 1;
+		idledir = sign(hsp);
+	}
+}
+
 
 if (_keyAttack) state = PLAYERSTATE.ATTACKSLASH
 }
