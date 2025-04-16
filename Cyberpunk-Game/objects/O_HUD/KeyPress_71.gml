@@ -1,1 +1,1 @@
-game_restart();
+SCR_SlideTransition(TRANS_MODE.RESTART);
