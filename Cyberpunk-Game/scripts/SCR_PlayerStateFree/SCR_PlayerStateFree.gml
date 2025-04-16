@@ -2,8 +2,9 @@ function SCR_PlayerStateFree()
 {
 var _keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var _keyLeft = keyboard_check(vk_left) or keyboard_check(ord("A"));
-var _keyJump = keyboard_check(vk_space) or keyboard_check(ord("W"));
+var _keyJump = keyboard_check(vk_space) or keyboard_check(ord("W")) or keyboard_check(vk_up);
 var _keyAttack = (mouse_check_button(mb_right))
+var _keyReload = keyboard_check(vk_control) or keyboard_check(ord("R"));
 
 hsp = (_keyRight - _keyLeft) * hspWalk;
 
@@ -44,6 +45,7 @@ if (!place_meeting(x,y+1,O_Wall))
 {
 	sprite_index = SPR_PlayerFalling;
 	image_speed = 0;
+	playerfalling = 1;
 	if (sign(hsp) > 0)
 	{
 		image_index = 0;
@@ -52,6 +54,7 @@ if (!place_meeting(x,y+1,O_Wall))
 }
 else
 {
+	playerfalling = 0;
 	if (hsp == 0) && (idledir > 0)
 	{
 		sprite_index = SPR_PlayerIdleRight;
@@ -84,4 +87,6 @@ else
 
 
 if (_keyAttack) state = PLAYERSTATE.ATTACKSLASH
+
+if (_keyReload) && (playerfalling == 0) state = PLAYERSTATE.RELOAD
 }

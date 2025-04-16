@@ -5,7 +5,8 @@ hitByAttack = ds_list_create();
 enum PLAYERSTATE
 {
 	FREE,
-	ATTACKSLASH
+	ATTACKSLASH,
+	RELOAD
 }
 
 grv = 0.3;
@@ -19,6 +20,8 @@ playerhp = 3;
 global.playerhpglob = playerhp;
 canbehit = 1;
 hitfrom = 0;
+canreload = 0;
+reloadrate = 30;
 
 flash = 0;
 idledir = 1;

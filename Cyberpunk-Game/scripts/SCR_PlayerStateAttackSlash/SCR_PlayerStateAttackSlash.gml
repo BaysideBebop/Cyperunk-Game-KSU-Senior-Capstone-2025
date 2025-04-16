@@ -51,6 +51,7 @@ function SCR_PlayerStateAttackSlash()
 		layer_set_visible("Gun",true)
 		layer_set_visible("LowerGun",true)
 		global.PlayerSwinging = false;
+		mask_index = SPR_PlayerWalkRightLookRight
 		if (global.GunLayer > 0)
 		{
 			sprite_index = SPR_PlayerIdleRight

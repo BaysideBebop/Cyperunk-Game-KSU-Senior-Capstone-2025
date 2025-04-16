@@ -13,7 +13,7 @@ image_speed = 0
 
 if (hasweapon)
 {
-	mygun = instance_create_layer(x,y,"Gun",O_EGun)	
+	mygun = instance_create_layer(x,y,"EnemyGun",O_EGun)	
 	with (mygun)
 	{
 		owner = other.id	

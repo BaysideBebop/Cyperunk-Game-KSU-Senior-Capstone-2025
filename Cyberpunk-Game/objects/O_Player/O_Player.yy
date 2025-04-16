@@ -40,6 +40,9 @@
     "name":"SPR_PlayerIdleRight",
     "path":"sprites/SPR_PlayerIdleRight/SPR_PlayerIdleRight.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"SPR_PlayerWalkRightLookRight",
+    "path":"sprites/SPR_PlayerWalkRightLookRight/SPR_PlayerWalkRightLookRight.yy",
+  },
   "visible":true,
 }
