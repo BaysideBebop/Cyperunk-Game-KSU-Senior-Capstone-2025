@@ -1,4 +1,5 @@
 state = PLAYERSTATE.FREE;
+global.PlayerSwinging = false
 hitByAttack = ds_list_create();
 
 enum PLAYERSTATE

@@ -8,6 +8,7 @@ var _keyAttack = (mouse_check_button(mb_right))
 hsp = (_keyRight - _keyLeft) * hspWalk;
 
 vsp = vsp + grv;
+global.GunLayer = idledir
 
 if (canJump-- > 0) && (_keyJump) && (!place_meeting(x, y-5, O_Wall))
 {
@@ -64,12 +65,20 @@ else
 		sprite_index = SPR_PlayerWalkRightLookRight;
 		image_speed = 1;
 		idledir = sign(hsp);
+		if (global.GunAngle = 1)
+		{
+			sprite_index = SPR_PlayerWalkRightLookLeft
+		}
 	}
 	if (hsp != 0) && (sign(hsp) < 0)
 	{
 		sprite_index = SPR_PlayerWalkLeftLookLeft;
 		image_speed = 1;
 		idledir = sign(hsp);
+		if (global.GunAngle = 0)
+		{
+			sprite_index = SPR_PlayerWalkLeftLookRight	
+		}
 	}
 }
 

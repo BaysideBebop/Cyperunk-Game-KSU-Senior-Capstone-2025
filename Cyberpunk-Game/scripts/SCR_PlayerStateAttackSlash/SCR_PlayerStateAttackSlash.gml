@@ -1,17 +1,29 @@
 function SCR_PlayerStateAttackSlash()
 {
+	layer_set_visible("Gun",false)
+	layer_set_visible("LowerGun",false)
 	hsp = 0;
+	global.PlayerSwinging = true;
 
 	//Start of attack
-	if (sprite_index != SPR_PlayerSlashAttackRight)
+	if (sprite_index != SPR_PlayerSlashAttackRight) && (global.GunLayer > 0)
 	{
 		sprite_index = SPR_PlayerSlashAttackRight;
+		mask_index = SPR_PlayerSlashAttackRightHB;
 		image_index = 0;
 		image_speed = 1;
 		ds_list_clear(hitByAttack);
 	}
+	if (sprite_index != SPR_PlayerSlashAttackLeft) && (global.GunLayer < 0)
+	{
+		sprite_index = SPR_PlayerSlashAttackLeft;
+		mask_index = SPR_PlayerSlashAttackLeftHB;
+		image_index = 0;
+		image_speed = 1;
+		ds_list_clear(hitByAttack);
+	}
+	
 
-	mask_index = SPR_PlayerSlashAttackRightHB
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x,y,O_Enemy,hitByAttackNow,false);
 	if (hits > 0)
@@ -35,7 +47,17 @@ function SCR_PlayerStateAttackSlash()
 	ds_list_destroy(hitByAttackNow);
 	if (SCR_AnimationEnd())
 	{
-		sprite_index = SPR_PlayerIdleRight
 		state = PLAYERSTATE.FREE
+		layer_set_visible("Gun",true)
+		layer_set_visible("LowerGun",true)
+		global.PlayerSwinging = false;
+		if (global.GunLayer > 0)
+		{
+			sprite_index = SPR_PlayerIdleRight
+		}
+		if (global.GunLayer < 0)
+		{
+			sprite_index = SPR_PlayerIdleLeft
+		}
 	}
 }

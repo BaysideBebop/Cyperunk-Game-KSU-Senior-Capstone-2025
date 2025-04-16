@@ -87,6 +87,7 @@
     {"id":{"name":"SPR_PlayerIdleLeft","path":"sprites/SPR_PlayerIdleLeft/SPR_PlayerIdleLeft.yy",},},
     {"id":{"name":"SPR_PlayerIdleRight","path":"sprites/SPR_PlayerIdleRight/SPR_PlayerIdleRight.yy",},},
     {"id":{"name":"SPR_PlayerSlashAttackLeft","path":"sprites/SPR_PlayerSlashAttackLeft/SPR_PlayerSlashAttackLeft.yy",},},
+    {"id":{"name":"SPR_PlayerSlashAttackLeftHB","path":"sprites/SPR_PlayerSlashAttackLeftHB/SPR_PlayerSlashAttackLeftHB.yy",},},
     {"id":{"name":"SPR_PlayerSlashAttackRight","path":"sprites/SPR_PlayerSlashAttackRight/SPR_PlayerSlashAttackRight.yy",},},
     {"id":{"name":"SPR_PlayerSlashAttackRightHB","path":"sprites/SPR_PlayerSlashAttackRightHB/SPR_PlayerSlashAttackRightHB.yy",},},
     {"id":{"name":"SPR_PlayerWalkLeftLookLeft","path":"sprites/SPR_PlayerWalkLeftLookLeft/SPR_PlayerWalkLeftLookLeft.yy",},},
