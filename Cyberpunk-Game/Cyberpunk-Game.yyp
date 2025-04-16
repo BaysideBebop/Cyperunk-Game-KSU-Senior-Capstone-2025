@@ -48,6 +48,7 @@
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
     {"id":{"name":"O_Stairs","path":"objects/O_Stairs/O_Stairs.yy",},},
     {"id":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},},
+    {"id":{"name":"R_Cave_1","path":"rooms/R_Cave_1/R_Cave_1.yy",},},
     {"id":{"name":"R_Cave","path":"rooms/R_Cave/R_Cave.yy",},},
     {"id":{"name":"R_TransitionTest","path":"rooms/R_TransitionTest/R_TransitionTest.yy",},},
     {"id":{"name":"SCR_AnimationEnd","path":"scripts/SCR_AnimationEnd/SCR_AnimationEnd.yy",},},
@@ -108,6 +109,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"R_Cave","path":"rooms/R_Cave/R_Cave.yy",},},
     {"roomId":{"name":"R_TransitionTest","path":"rooms/R_TransitionTest/R_TransitionTest.yy",},},
+    {"roomId":{"name":"R_Cave_1","path":"rooms/R_Cave_1/R_Cave_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
