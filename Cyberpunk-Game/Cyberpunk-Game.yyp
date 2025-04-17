@@ -106,6 +106,7 @@
     {"id":{"name":"SPR_PlayerWalkRightLookLeft","path":"sprites/SPR_PlayerWalkRightLookLeft/SPR_PlayerWalkRightLookLeft.yy",},},
     {"id":{"name":"SPR_PlayerWalkRightLookRight","path":"sprites/SPR_PlayerWalkRightLookRight/SPR_PlayerWalkRightLookRight.yy",},},
     {"id":{"name":"SPR_SaveRoom","path":"sprites/SPR_SaveRoom/SPR_SaveRoom.yy",},},
+    {"id":{"name":"SPR_Shooter_Hurt","path":"sprites/SPR_Shooter_Hurt/SPR_Shooter_Hurt.yy",},},
     {"id":{"name":"SPR_Shooter_Idle","path":"sprites/SPR_Shooter_Idle/SPR_Shooter_Idle.yy",},},
     {"id":{"name":"SPR_Sixshooter","path":"sprites/SPR_Sixshooter/SPR_Sixshooter.yy",},},
     {"id":{"name":"SPR_TempHPBar","path":"sprites/SPR_TempHPBar/SPR_TempHPBar.yy",},},
