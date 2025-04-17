@@ -79,6 +79,7 @@
     {"id":{"name":"SPR_Mine_Bg","path":"sprites/SPR_Mine_Bg/SPR_Mine_Bg.yy",},},
     {"id":{"name":"SPR_Mine_Prop","path":"sprites/SPR_Mine_Prop/SPR_Mine_Prop.yy",},},
     {"id":{"name":"SPR_Mine_Props_30tr","path":"sprites/SPR_Mine_Props_30tr/SPR_Mine_Props_30tr.yy",},},
+    {"id":{"name":"SPR_MinesBg","path":"sprites/SPR_MinesBg/SPR_MinesBg.yy",},},
     {"id":{"name":"SPR_MinesTileSheetv2","path":"sprites/SPR_MinesTileSheetv2/SPR_MinesTileSheetv2.yy",},},
     {"id":{"name":"SPR_MinesTileSheetv3","path":"sprites/SPR_MinesTileSheetv3/SPR_MinesTileSheetv3.yy",},},
     {"id":{"name":"SPR_MinesTileSheetv4","path":"sprites/SPR_MinesTileSheetv4/SPR_MinesTileSheetv4.yy",},},
