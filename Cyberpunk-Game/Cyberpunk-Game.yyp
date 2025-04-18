@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Cyberpunk-Game",
   "resources":[
@@ -61,6 +61,7 @@
     {"id":{"name":"SH_White","path":"shaders/SH_White/SH_White.yy",},},
     {"id":{"name":"SND_PlayerShot","path":"sounds/SND_PlayerShot/SND_PlayerShot.yy",},},
     {"id":{"name":"SPR_AmmoCount","path":"sprites/SPR_AmmoCount/SPR_AmmoCount.yy",},},
+    {"id":{"name":"SPR_BossRoomTiles","path":"sprites/SPR_BossRoomTiles/SPR_BossRoomTiles.yy",},},
     {"id":{"name":"SPR_Bullet","path":"sprites/SPR_Bullet/SPR_Bullet.yy",},},
     {"id":{"name":"SPR_Cactus_Hurt","path":"sprites/SPR_Cactus_Hurt/SPR_Cactus_Hurt.yy",},},
     {"id":{"name":"SPR_Cactus_IdleRight","path":"sprites/SPR_Cactus_IdleRight/SPR_Cactus_IdleRight.yy",},},
