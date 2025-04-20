@@ -1,6 +1,25 @@
 vsp = vsp + grv;
 
 //Don't walk off edges
+if (instance_exists(O_Player))
+{
+	if (point_distance(O_Player.x,O_Player.y,x-32,y) < 300) && (!collision_line(x,y,O_Player.x,O_Player.y,O_Wall,false,false))
+	{
+		alarm[0] = room_speed;
+		hsp = 0;
+		if (O_Player.x < x)
+		{
+			sprite_index = SPR_PlayerIdleLeft;
+			looking = -1;
+		}
+		if (O_Player.x > x)
+		{
+			sprite_index = SPR_PlayerIdleRight;
+			looking = 1;
+		}
+	}
+}
+x += hsp;
 if (grounded) && (afraidofheights) && (!place_meeting(x + hsp, y + 1, O_Wall))
 {
 	hsp = -hsp	
@@ -12,8 +31,6 @@ if (place_meeting(x + hsp, y, O_Wall))
 }
 
 if (stationary) hsp = 0;
-
-x += hsp;
 
 if (place_meeting(x, y + vsp, O_Wall))
 {
