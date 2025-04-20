@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_MarkerDebug",
-  "eventList":[],
+  "%Name":"O_Trigger",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"O_MarkerDebug",
+  "name":"O_Trigger",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SPR_MarkerDebug",
-    "path":"sprites/SPR_MarkerDebug/SPR_MarkerDebug.yy",
+    "name":"SPR_Trigger",
+    "path":"sprites/SPR_Trigger/SPR_Trigger.yy",
   },
   "spriteMaskId":null,
   "visible":true,
