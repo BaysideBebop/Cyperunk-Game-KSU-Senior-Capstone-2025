@@ -3,7 +3,7 @@ vsp = vsp + grv;
 //Don't walk off edges
 if (instance_exists(O_Player))
 {
-	if (point_distance(O_Player.x,O_Player.y,x-32,y) < 300) && (!collision_line(x,y,O_Player.x,O_Player.y,O_Wall,false,false))
+	if (point_distance(O_Player.x,O_Player.y,x-32,y) < 300) && (!collision_line(x,y,O_Player.x,O_Player.y,O_Wall,false,false)) && (hasweapon)
 	{
 		alarm[0] = room_speed;
 		hsp = 0;
@@ -70,12 +70,12 @@ else
 	{
 		if (stationary) && (O_Player.x < x)
 		{
-			sprite_index = SPR_PlayerIdleLeft;
+			sprite_index = SPR_CactusIdleLeft;
 			looking = -1;
 		}
 		if (stationary) && (O_Player.x > x)
 		{
-			sprite_index = SPR_PlayerIdleRight;
+			sprite_index = SPR_CactusIdleRight;
 			looking = 1;
 		}
 	}

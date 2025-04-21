@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"SPR_Cactus_Hurt",
+  "%Name":"SPR_CactusHurtLeft",
   "bboxMode":0,
   "bbox_bottom":77,
-  "bbox_left":0,
-  "bbox_right":54,
+  "bbox_left":15,
+  "bbox_right":69,
   "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -25,7 +25,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"a77d0ad1-ce87-43dc-9cfe-1a79af36bc23","blendMode":0,"displayName":"default","isLocked":false,"name":"a77d0ad1-ce87-43dc-9cfe-1a79af36bc23","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"SPR_Cactus_Hurt",
+  "name":"SPR_CactusHurtLeft",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -37,7 +37,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"SPR_Cactus_Hurt",
+    "%Name":"SPR_CactusHurtLeft",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -61,7 +61,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"SPR_Cactus_Hurt",
+    "name":"SPR_CactusHurtLeft",
     "playback":1,
     "playbackSpeed":5.0,
     "playbackSpeedType":0,
@@ -75,19 +75,19 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c4c8462a-f6d9-428c-81c3-664b24a8728a","path":"sprites/SPR_Cactus_Hurt/SPR_Cactus_Hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c4c8462a-f6d9-428c-81c3-664b24a8728a","path":"sprites/SPR_CactusHurtLeft/SPR_CactusHurtLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"488b7049-d1b8-4b95-99db-21197db454b1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"55a21b68-837c-4ed7-8046-6a81b2a25641","path":"sprites/SPR_Cactus_Hurt/SPR_Cactus_Hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"55a21b68-837c-4ed7-8046-6a81b2a25641","path":"sprites/SPR_CactusHurtLeft/SPR_CactusHurtLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d79544df-5c27-4543-9f2d-ec000f83df7d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d7411c50-4b60-4267-b93f-a6c109ab4042","path":"sprites/SPR_Cactus_Hurt/SPR_Cactus_Hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d7411c50-4b60-4267-b93f-a6c109ab4042","path":"sprites/SPR_CactusHurtLeft/SPR_CactusHurtLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"dcb0765b-8519-4755-ab64-bb1162ef5192","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f894c492-e00d-42f1-8fef-a1e9ccd92d7c","path":"sprites/SPR_Cactus_Hurt/SPR_Cactus_Hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f894c492-e00d-42f1-8fef-a1e9ccd92d7c","path":"sprites/SPR_CactusHurtLeft/SPR_CactusHurtLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5451c248-5e4c-492b-90f0-688c10ef32ec","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e93e2f27-ce08-4574-a14b-64ad4318dbce","path":"sprites/SPR_Cactus_Hurt/SPR_Cactus_Hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e93e2f27-ce08-4574-a14b-64ad4318dbce","path":"sprites/SPR_CactusHurtLeft/SPR_CactusHurtLeft.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0e8a6a37-8362-4c44-94b6-33c1e092d0b3","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

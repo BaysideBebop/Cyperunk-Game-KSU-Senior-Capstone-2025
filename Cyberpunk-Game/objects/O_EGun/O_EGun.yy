@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SPR_Sixshooter",
-    "path":"sprites/SPR_Sixshooter/SPR_Sixshooter.yy",
+    "name":"SPR_EnemyGun",
+    "path":"sprites/SPR_EnemyGun/SPR_EnemyGun.yy",
   },
   "spriteMaskId":null,
   "visible":true,
