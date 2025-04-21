@@ -44,6 +44,9 @@
     "name":"SPR_EnemyPlaceholder",
     "path":"sprites/SPR_EnemyPlaceholder/SPR_EnemyPlaceholder.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"SPR_EnemyPlaceholder",
+    "path":"sprites/SPR_EnemyPlaceholder/SPR_EnemyPlaceholder.yy",
+  },
   "visible":true,
 }

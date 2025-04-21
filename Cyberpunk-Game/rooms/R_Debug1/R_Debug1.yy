@@ -57,6 +57,7 @@
     {"name":"inst_20C8C00A","path":"rooms/R_Debug1/R_Debug1.yy",},
     {"name":"inst_34F7DECD","path":"rooms/R_Debug1/R_Debug1.yy",},
     {"name":"inst_79DD91B3","path":"rooms/R_Debug1/R_Debug1.yy",},
+    {"name":"inst_39D2B3A","path":"rooms/R_Debug1/R_Debug1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -81,7 +82,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"stationary","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hp","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"facingright","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":480.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":384.0,},
+        {"$GMRInstance":"v2","%Name":"inst_39D2B3A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39D2B3A","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hasweapon","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":384.0,},
       ],"layers":[],"name":"Enemy","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"LowerEnemyGun","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"LowerEnemyGun","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Triggers","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
