@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Cyberpunk-Game",
   "resources":[
@@ -114,6 +114,7 @@
     {"id":{"name":"SPR_ShooterHurt","path":"sprites/SPR_ShooterHurt/SPR_ShooterHurt.yy",},},
     {"id":{"name":"SPR_ShooterIdleLeft","path":"sprites/SPR_ShooterIdleLeft/SPR_ShooterIdleLeft.yy",},},
     {"id":{"name":"SPR_ShooterIdleRight","path":"sprites/SPR_ShooterIdleRight/SPR_ShooterIdleRight.yy",},},
+    {"id":{"name":"SPR_ShooterWalk","path":"sprites/SPR_ShooterWalk/SPR_ShooterWalk.yy",},},
     {"id":{"name":"SPR_Sixshooter","path":"sprites/SPR_Sixshooter/SPR_Sixshooter.yy",},},
     {"id":{"name":"SPR_TempHPBar","path":"sprites/SPR_TempHPBar/SPR_TempHPBar.yy",},},
     {"id":{"name":"SPR_TempPlayer","path":"sprites/SPR_TempPlayer/SPR_TempPlayer.yy",},},
