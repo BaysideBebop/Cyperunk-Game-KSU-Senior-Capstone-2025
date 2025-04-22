@@ -10,11 +10,13 @@ if (instance_exists(O_Player))
 		if (O_Player.x < x)
 		{
 			sprite_index = SPR_ShooterIdleLeft;
+			mask_index = SPR_ShooterIdleLeft;
 			looking = -1;
 		}
 		if (O_Player.x > x)
 		{
 			sprite_index = SPR_ShooterIdleRight;
+			mask_index = SPR_ShooterIdleRight;
 			looking = 1;
 		}
 	}
@@ -84,12 +86,14 @@ else
 	}
 	if (hsp != 0) && (sign(hsp) > 0)
 	{
-		sprite_index = SPR_PlayerWalkRightLookRight;
+		sprite_index = SPR_ShooterWalkRight;
+		mask_index = SPR_ShooterWalkRight;
 		image_speed = 1;
 	}
 	if (hsp != 0) && (sign(hsp) < 0)
 	{
-		sprite_index = SPR_PlayerWalkLeftLookLeft;
+		sprite_index = SPR_ShooterWalkLeft;
+		mask_index = SPR_ShooterWalkLeft;
 		image_speed = 1;
 	}
 	if (sign(hsp) > 0)

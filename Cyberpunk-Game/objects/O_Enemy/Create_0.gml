@@ -1,5 +1,5 @@
 grv = 0.2;
-hspWalk = 1.5;
+hspWalk = 1.25;
 hsp = hspWalk;
 vsp = 0;
 vspJump = -6;

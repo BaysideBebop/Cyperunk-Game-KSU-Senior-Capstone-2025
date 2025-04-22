@@ -1,12 +1,12 @@
 {
   "$GMSprite":"",
-  "%Name":"SPR_ShooterWalk",
+  "%Name":"SPR_ShooterWalkRight",
   "bboxMode":0,
   "bbox_bottom":47,
   "bbox_left":7,
   "bbox_right":38,
   "bbox_top":0,
-  "collisionKind":1,
+  "collisionKind":4,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"5d9a7350-9cee-4393-9f96-b91bc6ec3239","blendMode":0,"displayName":"default","isLocked":false,"name":"5d9a7350-9cee-4393-9f96-b91bc6ec3239","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"SPR_ShooterWalk",
+  "name":"SPR_ShooterWalkRight",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"SPR_ShooterWalk",
+    "%Name":"SPR_ShooterWalkRight",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"SPR_ShooterWalk",
+    "name":"SPR_ShooterWalkRight",
     "playback":1,
     "playbackSpeed":5.0,
     "playbackSpeedType":0,
@@ -72,10 +72,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b22ff23b-1e46-4e8d-99de-2ae8c0c3d3d6","path":"sprites/SPR_ShooterWalk/SPR_ShooterWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b22ff23b-1e46-4e8d-99de-2ae8c0c3d3d6","path":"sprites/SPR_ShooterWalkRight/SPR_ShooterWalkRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"dab6e38a-12a6-4aaa-8033-a5aaa9f09286","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d24fc554-f965-4e3d-b0b0-0ff893c86088","path":"sprites/SPR_ShooterWalk/SPR_ShooterWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d24fc554-f965-4e3d-b0b0-0ff893c86088","path":"sprites/SPR_ShooterWalkRight/SPR_ShooterWalkRight.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"cc548cc7-dc55-4ee8-9fae-de03aba070cf","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
