@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"SPR_CactusDead",
   "bboxMode":2,
-  "bbox_bottom":38,
+  "bbox_bottom":35,
   "bbox_left":0,
   "bbox_right":77,
   "bbox_top":0,

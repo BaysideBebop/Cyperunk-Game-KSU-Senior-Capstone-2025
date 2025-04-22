@@ -47,6 +47,7 @@
     {"id":{"name":"O_HUD","path":"objects/O_HUD/O_HUD.yy",},},
     {"id":{"name":"O_Melee","path":"objects/O_Melee/O_Melee.yy",},},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
+    {"id":{"name":"O_PlayerHurtbox","path":"objects/O_PlayerHurtbox/O_PlayerHurtbox.yy",},},
     {"id":{"name":"O_Stairs","path":"objects/O_Stairs/O_Stairs.yy",},},
     {"id":{"name":"O_Transition","path":"objects/O_Transition/O_Transition.yy",},},
     {"id":{"name":"O_Trigger","path":"objects/O_Trigger/O_Trigger.yy",},},
