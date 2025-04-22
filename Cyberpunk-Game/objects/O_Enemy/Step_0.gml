@@ -22,12 +22,12 @@ if (instance_exists(O_Player))
 	}
 }
 x += hsp;
-if (grounded) && (afraidofheights) && (!place_meeting(x + hsp, y + 1, O_Wall))
+if (grounded) && (afraidofheights) && (!place_meeting(x + hsp - 60, y + 1, O_Wall))
 {
 	hsp = -hsp	
 }
 
-if (place_meeting(x + hsp, y, O_Wall))
+if (place_meeting(x + hsp + 32, y, O_Wall))
 {
 	hsp = -hsp;
 }
