@@ -33,7 +33,4 @@ reloadrate = 30;
 flash = 0;
 idledir = 1;
 
-coincount = 0;
-global.PlayerCoinCount = coincount;
-
 hascontrol = true;
