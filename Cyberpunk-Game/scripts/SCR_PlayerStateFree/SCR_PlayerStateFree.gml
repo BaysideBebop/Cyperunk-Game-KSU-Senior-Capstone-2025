@@ -54,14 +54,12 @@ y += vsp;
 //Animation
 if (!place_meeting(x,y+1,O_Wall))
 {
-	sprite_index = SPR_PlayerFalling;
-	image_speed = 0;
 	playerfalling = 1;
 	if (sign(hsp) > 0)
 	{
-		image_index = 0;
+	sprite_index = SPR_PlayerFallingRight;
 	}
-	else image_index = 1;
+	else sprite_index = SPR_PlayerFallingLeft;
 }
 else
 {
