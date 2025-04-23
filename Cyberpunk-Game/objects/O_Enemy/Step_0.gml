@@ -12,22 +12,12 @@ if (instance_exists(O_Player))
 			sprite_index = SPR_ShooterIdleLeft;
 			mask_index = SPR_ShooterIdleLeft;
 			looking = -1;
-			if (beinghurt)
-			{
-				sprite_index = SPR_ShooterHurtLeft;
-				alarm[1] = 0.5*room_speed
-			}
 		}
 		if (O_Player.x > x)
 		{
 			sprite_index = SPR_ShooterIdleRight;
 			mask_index = SPR_ShooterIdleRight;
 			looking = 1;
-			if (beinghurt)
-			{
-				sprite_index = SPR_ShooterHurtRight;
-				alarm[2] = 0.5*room_speed
-			}
 		}
 	}
 }
@@ -87,22 +77,12 @@ else
 			mask_index = SPR_CactusIdleLeft;
 			sprite_index = SPR_CactusIdleLeft;
 			looking = -1;
-			if (beinghurt)
-			{
-				sprite_index = SPR_CactusHurtLeft
-				alarm[3] = 0.5*room_speed
-			}
 		}
 		if (stationary) && (O_Player.x > x)
 		{
 			mask_index = SPR_CactusIdleRight;
 			sprite_index = SPR_CactusIdleRight;
 			looking = 1;
-			if (beinghurt)
-			{
-				sprite_index = SPR_CactusHurtRight
-				alarm[4] = 0.5*room_speed
-			}
 		}
 	}
 	if (hsp != 0) && (sign(hsp) > 0)

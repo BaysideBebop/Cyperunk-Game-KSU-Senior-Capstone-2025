@@ -28,7 +28,7 @@ if (canJump-- > 0) && (_keyJump) && (!place_meeting(x, y-5, O_Wall))
 	canJump = 0;
 }
 
-if (place_meeting(x + hsp, y, O_Wall))
+if (place_meeting(x + hsp*2, y, O_Wall))
 {
 	while (abs(hsp) > 0.1)
 	{
@@ -39,7 +39,7 @@ if (place_meeting(x + hsp, y, O_Wall))
 }
 x += hsp;
 
-if (place_meeting(x, y + vsp, O_Wall))
+if (place_meeting(x, y - vsp*3, O_Wall))
 {
 	if (vsp > 0) canJump = 4;
 	while (abs(vsp) > 0.3)
