@@ -36,6 +36,7 @@
   "name":"Cyberpunk-Game",
   "resources":[
     {"id":{"name":"O_Bullet","path":"objects/O_Bullet/O_Bullet.yy",},},
+    {"id":{"name":"O_BulletPickup","path":"objects/O_BulletPickup/O_BulletPickup.yy",},},
     {"id":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},},
     {"id":{"name":"O_Camera","path":"objects/O_Camera/O_Camera.yy",},},
     {"id":{"name":"O_Coin","path":"objects/O_Coin/O_Coin.yy",},},
@@ -86,6 +87,7 @@
     {"id":{"name":"SPR_BossStartAttack","path":"sprites/SPR_BossStartAttack/SPR_BossStartAttack.yy",},},
     {"id":{"name":"SPR_BossStartAttackRight","path":"sprites/SPR_BossStartAttackRight/SPR_BossStartAttackRight.yy",},},
     {"id":{"name":"SPR_Bullet","path":"sprites/SPR_Bullet/SPR_Bullet.yy",},},
+    {"id":{"name":"SPR_BulletPickup","path":"sprites/SPR_BulletPickup/SPR_BulletPickup.yy",},},
     {"id":{"name":"SPR_CactusDead","path":"sprites/SPR_CactusDead/SPR_CactusDead.yy",},},
     {"id":{"name":"SPR_CactusHurtLeft","path":"sprites/SPR_CactusHurtLeft/SPR_CactusHurtLeft.yy",},},
     {"id":{"name":"SPR_CactusHurtRight","path":"sprites/SPR_CactusHurtRight/SPR_CactusHurtRight.yy",},},

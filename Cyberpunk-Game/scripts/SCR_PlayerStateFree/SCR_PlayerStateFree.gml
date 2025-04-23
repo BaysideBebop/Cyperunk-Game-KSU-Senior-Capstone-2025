@@ -66,13 +66,25 @@ if (!place_meeting(x,y+1,O_Wall))
 else
 {
 	playerfalling = 0;
-	if (hsp == 0) && (idledir > 0)
+	if (hsp == 0) && (idledir > 0) && (global.GunAngle = 1)
 	{
 		sprite_index = SPR_PlayerIdleRight;
+		image_index = 1
 	}
-	if (hsp == 0) && (idledir < 0)
+		if (hsp == 0) && (idledir > 0) && (global.GunAngle = 0)
+	{
+		sprite_index = SPR_PlayerIdleRight;
+		image_index = 0
+	}
+	if (hsp == 0) && (idledir < 0) && (global.GunAngle = 1)
 	{
 		sprite_index = SPR_PlayerIdleLeft;
+		image_index = 0
+	}
+		if (hsp == 0) && (idledir < 0) && (global.GunAngle = 0)
+	{
+		sprite_index = SPR_PlayerIdleLeft;
+		image_index = 1
 	}
 	if (hsp != 0) && (sign(hsp) > 0)
 	{
