@@ -28,7 +28,6 @@ function SCR_PlayerStateHurt()
 	if (canbehit = 1) && (playerhp != 0)
 	{
 		playerfalling = 0;
-		hitfrom = other.direction
 		canbehit = 0
 		playerhp -= 1
 		flash = 3
@@ -39,9 +38,5 @@ function SCR_PlayerStateHurt()
 		hascontrol = false;
 		if (idledir > 0) sprite_index = SPR_PlayerHurtRight
 		if (idledir < 0) sprite_index = SPR_PlayerHurtLeft
-	}
-	if (canbehit = 1) && (playerhp = 0)
-	{
-		hitfrom = other.direction
 	}
 }

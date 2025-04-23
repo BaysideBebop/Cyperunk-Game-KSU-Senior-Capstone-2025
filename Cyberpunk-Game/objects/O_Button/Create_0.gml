@@ -5,3 +5,5 @@ global.HPPersist = -1;
 global.AmmoPersist = -1
 global.ReservePersist = -1
 alarm[0] = room_speed
+
+window_set_size(1280,720);

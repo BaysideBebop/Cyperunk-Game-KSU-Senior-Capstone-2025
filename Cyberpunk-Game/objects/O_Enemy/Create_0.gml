@@ -11,7 +11,7 @@ hitfrom = 0;
 beinghurt = 0;
 looking = 1;
 
-image_speed = 0
+image_speed = 1
 
 if (hasweapon)
 {
