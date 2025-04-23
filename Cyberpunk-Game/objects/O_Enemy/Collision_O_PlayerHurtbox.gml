@@ -1,4 +1,4 @@
-with (other)
+with (O_Player)
 {
 	if (canbehit = 1) && (playerhp != 0)
 	{

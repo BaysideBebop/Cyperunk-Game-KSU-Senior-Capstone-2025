@@ -7,7 +7,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_PlayerHurtbox","path":"objects/O_PlayerHurtbox/O_PlayerHurtbox.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_Enemy",
@@ -46,8 +46,8 @@
     "path":"sprites/SPR_EnemyPlaceholder/SPR_EnemyPlaceholder.yy",
   },
   "spriteMaskId":{
-    "name":"SPR_EnemyPlaceholder",
-    "path":"sprites/SPR_EnemyPlaceholder/SPR_EnemyPlaceholder.yy",
+    "name":"SPR_ShooterWalkRight",
+    "path":"sprites/SPR_ShooterWalkRight/SPR_ShooterWalkRight.yy",
   },
   "visible":true,
 }

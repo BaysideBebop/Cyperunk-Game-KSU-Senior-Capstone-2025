@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_PlayerHurtbox",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_HealthPickup",
+  "eventList":[],
   "managed":true,
-  "name":"O_PlayerHurtbox",
+  "name":"O_HealthPickup",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":{
-    "name":"SPR_PlayerIdleRight",
-    "path":"sprites/SPR_PlayerIdleRight/SPR_PlayerIdleRight.yy",
+  "spriteId":{
+    "name":"SPR_HealthPickup",
+    "path":"sprites/SPR_HealthPickup/SPR_HealthPickup.yy",
   },
+  "spriteMaskId":null,
   "visible":true,
 }
