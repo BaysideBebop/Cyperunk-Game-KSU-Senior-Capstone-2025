@@ -146,6 +146,7 @@
     {"id":{"name":"SPR_TownbgTiles","path":"sprites/SPR_TownbgTiles/SPR_TownbgTiles.yy",},},
     {"id":{"name":"SPR_TownTiles","path":"sprites/SPR_TownTiles/SPR_TownTiles.yy",},},
     {"id":{"name":"SPR_Trigger","path":"sprites/SPR_Trigger/SPR_Trigger.yy",},},
+    {"id":{"name":"SPR_TumbleWeedToss","path":"sprites/SPR_TumbleWeedToss/SPR_TumbleWeedToss.yy",},},
     {"id":{"name":"TS_Boss_Room_Tiles","path":"tilesets/TS_Boss_Room_Tiles/TS_Boss_Room_Tiles.yy",},},
     {"id":{"name":"TS_Cave","path":"tilesets/TS_Cave/TS_Cave.yy",},},
     {"id":{"name":"TS_Crystals","path":"tilesets/TS_Crystals/TS_Crystals.yy",},},
