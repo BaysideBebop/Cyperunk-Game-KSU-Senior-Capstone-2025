@@ -57,6 +57,7 @@
     {"id":{"name":"R_Cave_1","path":"rooms/R_Cave_1/R_Cave_1.yy",},},
     {"id":{"name":"R_Cave_2","path":"rooms/R_Cave_2/R_Cave_2.yy",},},
     {"id":{"name":"R_Cave_3","path":"rooms/R_Cave_3/R_Cave_3.yy",},},
+    {"id":{"name":"R_Cave_Child_4","path":"rooms/R_Cave_Child_4/R_Cave_Child_4.yy",},},
     {"id":{"name":"R_Cave","path":"rooms/R_Cave/R_Cave.yy",},},
     {"id":{"name":"R_Debug1","path":"rooms/R_Debug1/R_Debug1.yy",},},
     {"id":{"name":"R_MainMenu","path":"rooms/R_MainMenu/R_MainMenu.yy",},},
@@ -74,6 +75,7 @@
     {"id":{"name":"SPR_BossAttackIdle","path":"sprites/SPR_BossAttackIdle/SPR_BossAttackIdle.yy",},},
     {"id":{"name":"SPR_BossAttackIdleRight","path":"sprites/SPR_BossAttackIdleRight/SPR_BossAttackIdleRight.yy",},},
     {"id":{"name":"SPR_BossAttackRight","path":"sprites/SPR_BossAttackRight/SPR_BossAttackRight.yy",},},
+    {"id":{"name":"SPR_BossDeath","path":"sprites/SPR_BossDeath/SPR_BossDeath.yy",},},
     {"id":{"name":"SPR_BossDisappear","path":"sprites/SPR_BossDisappear/SPR_BossDisappear.yy",},},
     {"id":{"name":"SPR_BossEndAttack","path":"sprites/SPR_BossEndAttack/SPR_BossEndAttack.yy",},},
     {"id":{"name":"SPR_BossEndAttackRight","path":"sprites/SPR_BossEndAttackRight/SPR_BossEndAttackRight.yy",},},
@@ -172,6 +174,7 @@
     {"roomId":{"name":"R_Cave_1","path":"rooms/R_Cave_1/R_Cave_1.yy",},},
     {"roomId":{"name":"R_Cave_2","path":"rooms/R_Cave_2/R_Cave_2.yy",},},
     {"roomId":{"name":"R_Cave_3","path":"rooms/R_Cave_3/R_Cave_3.yy",},},
+    {"roomId":{"name":"R_Cave_Child_4","path":"rooms/R_Cave_Child_4/R_Cave_Child_4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
