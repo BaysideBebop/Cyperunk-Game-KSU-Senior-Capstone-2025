@@ -74,6 +74,7 @@
     {"id":{"name":"SPR_BossAttackIdle","path":"sprites/SPR_BossAttackIdle/SPR_BossAttackIdle.yy",},},
     {"id":{"name":"SPR_BossAttackIdleRight","path":"sprites/SPR_BossAttackIdleRight/SPR_BossAttackIdleRight.yy",},},
     {"id":{"name":"SPR_BossAttackRight","path":"sprites/SPR_BossAttackRight/SPR_BossAttackRight.yy",},},
+    {"id":{"name":"SPR_BossDeath","path":"sprites/SPR_BossDeath/SPR_BossDeath.yy",},},
     {"id":{"name":"SPR_BossDisappear","path":"sprites/SPR_BossDisappear/SPR_BossDisappear.yy",},},
     {"id":{"name":"SPR_BossEndAttack","path":"sprites/SPR_BossEndAttack/SPR_BossEndAttack.yy",},},
     {"id":{"name":"SPR_BossEndAttackRight","path":"sprites/SPR_BossEndAttackRight/SPR_BossEndAttackRight.yy",},},
