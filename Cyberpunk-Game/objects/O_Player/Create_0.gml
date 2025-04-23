@@ -15,7 +15,8 @@ enum PLAYERSTATE
 {
 	FREE,
 	ATTACKSLASH,
-	RELOAD
+	RELOAD,
+	HURT
 }
 
 grv = 0.3;

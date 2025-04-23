@@ -8,6 +8,7 @@ grounded = false;
 
 flash = 0;
 hitfrom = 0;
+beinghurt = 0;
 looking = 1;
 
 image_speed = 0

@@ -12,15 +12,26 @@ if (instance_exists(O_Player))
 			sprite_index = SPR_ShooterIdleLeft;
 			mask_index = SPR_ShooterIdleLeft;
 			looking = -1;
+			if (beinghurt)
+			{
+				sprite_index = SPR_ShooterHurtLeft;
+				alarm[1] = 0.5*room_speed
+			}
 		}
 		if (O_Player.x > x)
 		{
 			sprite_index = SPR_ShooterIdleRight;
 			mask_index = SPR_ShooterIdleRight;
 			looking = 1;
+			if (beinghurt)
+			{
+				sprite_index = SPR_ShooterHurtRight;
+				alarm[2] = 0.5*room_speed
+			}
 		}
 	}
 }
+
 x += hsp;
 if (grounded) && (afraidofheights) && (!place_meeting(x + hsp - 60, y + 1, O_Wall))
 {
@@ -60,7 +71,7 @@ if (!place_meeting(x,y+1,O_Wall)) && (stationary)
 {
 	mask_index = SPR_CactusIdleLeft;
 	sprite_index = SPR_CactusIdleLeft;
-	image_speed = 0;
+	image_speed = 1;
 	if (sign(hsp) > 0)
 	{
 		image_index = 0;
@@ -76,14 +87,24 @@ else
 			mask_index = SPR_CactusIdleLeft;
 			sprite_index = SPR_CactusIdleLeft;
 			looking = -1;
+			if (beinghurt)
+			{
+				sprite_index = SPR_CactusHurtLeft
+				alarm[3] = 0.5*room_speed
+			}
 		}
+	}
 		if (stationary) && (O_Player.x > x)
 		{
 			mask_index = SPR_CactusIdleRight;
 			sprite_index = SPR_CactusIdleRight;
 			looking = 1;
+			if (beinghurt)
+			{
+				sprite_index = SPR_CactusHurtRight
+				alarm[4] = 0.5*room_speed
+			}
 		}
-	}
 	if (hsp != 0) && (sign(hsp) > 0)
 	{
 		sprite_index = SPR_ShooterWalkRight;

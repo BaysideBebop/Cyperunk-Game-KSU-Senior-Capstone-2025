@@ -19,4 +19,5 @@ switch (state)
 	case PLAYERSTATE.FREE:	SCR_PlayerStateFree(); break;
 	case PLAYERSTATE.ATTACKSLASH: SCR_PlayerStateAttackSlash(); break;
 	case PLAYERSTATE.RELOAD: SCR_PlayerStateReload(); break;
+	case PLAYERSTATE.HURT: SCR_PlayerStateHurt(); break;
 }
