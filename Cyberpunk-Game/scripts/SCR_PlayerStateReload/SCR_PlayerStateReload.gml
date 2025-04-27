@@ -14,7 +14,7 @@ function SCR_PlayerStateReload()
 		image_index = 0
 		image_speed = 1
 		canreload = 0
-		reloadrate = 6000
+		reloadrate = 5000
 		O_Gun.ammo = O_Gun.ammo + 1
 		O_Gun.reserve = O_Gun.reserve - 1
 	}
@@ -25,13 +25,14 @@ function SCR_PlayerStateReload()
 		image_index = 0
 		image_speed = 1
 		canreload = 0
-		reloadrate = 6000
+		reloadrate = 5000
 		O_Gun.ammo = O_Gun.ammo + 1
 		O_Gun.reserve = O_Gun.reserve - 1
 	}
 	if (O_Gun.ammo == 6) or (O_Gun.reserve == 0)
 	{
 	state = PLAYERSTATE.FREE
+	reloadrate = 0
 		layer_set_visible("Gun",true)
 		layer_set_visible("LowerGun",true)
 		global.PlayerSwinging = false;
