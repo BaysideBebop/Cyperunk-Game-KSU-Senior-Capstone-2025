@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"SPR_PlayerWalkRightLookLeft",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":47,
   "bbox_left":0,
   "bbox_right":30,
-  "bbox_top":1,
+  "bbox_top":3,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

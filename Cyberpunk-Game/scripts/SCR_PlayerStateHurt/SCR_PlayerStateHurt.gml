@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function SCR_PlayerStateHurt()
 {
+	isbeinghurt = true;
 	vsp = vsp + grv;
 	y += vsp;
 	x += hsp;
@@ -26,7 +27,7 @@ function SCR_PlayerStateHurt()
 	}
 
 	if (canbehit = 1) && (playerhp != 0)
-	{
+	 {
 		playerfalling = 0;
 		canbehit = 0
 		playerhp -= 1

@@ -39,7 +39,7 @@ if (place_meeting(x + hsp*2, y, O_Wall))
 }
 x += hsp;
 
-if (place_meeting(x, y - vsp*3, O_Wall))
+if (place_meeting(x, y + vsp, O_Wall))
 {
 	if (vsp > 0) canJump = 4;
 	while (abs(vsp) > 0.3)
@@ -92,6 +92,7 @@ else
 		if (global.GunAngle = 1)
 		{
 			sprite_index = SPR_PlayerWalkRightLookLeft
+			idledir = sign(hsp);
 		}
 	}
 	if (hsp != 0) && (sign(hsp) < 0)
@@ -102,12 +103,13 @@ else
 		if (global.GunAngle = 0)
 		{
 			sprite_index = SPR_PlayerWalkLeftLookRight	
+			idledir = sign(hsp);
 		}
 	}
 }
 
 
-if (_keyAttack) state = PLAYERSTATE.ATTACKSLASH
+if (_keyAttack) && (playerfalling == 0) && (isbeinghurt = false) && (global.PlayerSwinging = false) state = PLAYERSTATE.ATTACKSLASH
 
-if (_keyReload) && (playerfalling == 0) state = PLAYERSTATE.RELOAD
+if (_keyReload) && (playerfalling == 0) && (isbeinghurt = false) && (global.PlayerSwinging = false) state = PLAYERSTATE.RELOAD
 }

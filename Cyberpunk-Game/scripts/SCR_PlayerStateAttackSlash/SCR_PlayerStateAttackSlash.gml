@@ -3,6 +3,7 @@ function SCR_PlayerStateAttackSlash()
 	layer_set_visible("Gun",false)
 	layer_set_visible("LowerGun",false)
 	hsp = 0;
+	vsp = 0;
 	global.PlayerSwinging = true;
 
 	//Start of attack
@@ -23,7 +24,6 @@ function SCR_PlayerStateAttackSlash()
 		ds_list_clear(hitByAttack);
 	}
 	
-
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x,y,O_Enemy,hitByAttackNow,false);
 	if (hits > 0)

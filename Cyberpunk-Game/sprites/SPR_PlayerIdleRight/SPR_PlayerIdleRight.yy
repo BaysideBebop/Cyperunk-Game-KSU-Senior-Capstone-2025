@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"SPR_PlayerIdleRight",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":47,
   "bbox_left":0,
   "bbox_right":22,

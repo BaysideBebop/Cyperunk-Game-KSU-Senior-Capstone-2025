@@ -8,6 +8,7 @@ if (global.HasPreviousStats = true)
 if (global.HasPreviousStats = false) playerhp = 3;
 
 global.PlayerSwinging = false;
+isbeinghurt = false;
 global.playerhpglob = playerhp;
 hitByAttack = ds_list_create();
 

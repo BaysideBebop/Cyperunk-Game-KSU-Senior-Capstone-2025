@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"SPR_PlayerHurtLeft",
   "bboxMode":2,
-  "bbox_bottom":46,
+  "bbox_bottom":47,
   "bbox_left":6,
   "bbox_right":25,
   "bbox_top":3,

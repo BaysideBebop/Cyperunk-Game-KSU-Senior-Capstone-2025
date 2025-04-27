@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"SPR_PlayerFallingLeft",
   "bboxMode":2,
-  "bbox_bottom":42,
+  "bbox_bottom":47,
   "bbox_left":0,
   "bbox_right":21,
   "bbox_top":5,
