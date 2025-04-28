@@ -162,6 +162,7 @@
     {"id":{"name":"TS_Cave","path":"tilesets/TS_Cave/TS_Cave.yy",},},
     {"id":{"name":"TS_Crystals","path":"tilesets/TS_Crystals/TS_Crystals.yy",},},
     {"id":{"name":"TS_Electric_Props","path":"tilesets/TS_Electric_Props/TS_Electric_Props.yy",},},
+    {"id":{"name":"TS_Elevator","path":"tilesets/TS_Elevator/TS_Elevator.yy",},},
     {"id":{"name":"TS_MetalPath","path":"tilesets/TS_MetalPath/TS_MetalPath.yy",},},
     {"id":{"name":"TS_Mine_props_30tr","path":"tilesets/TS_Mine_props_30tr/TS_Mine_props_30tr.yy",},},
     {"id":{"name":"TS_Mine_Props","path":"tilesets/TS_Mine_Props/TS_Mine_Props.yy",},},
