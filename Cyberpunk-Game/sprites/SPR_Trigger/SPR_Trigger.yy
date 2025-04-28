@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"SPR_Trigger",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":47,
   "bbox_left":0,
   "bbox_right":31,
@@ -19,7 +19,7 @@
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"58b7fcc8-886c-4a0b-b8f9-cfdbd6b8416b","blendMode":0,"displayName":"default","isLocked":false,"name":"58b7fcc8-886c-4a0b-b8f9-cfdbd6b8416b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"58b7fcc8-886c-4a0b-b8f9-cfdbd6b8416b","blendMode":0,"displayName":"default","isLocked":false,"name":"58b7fcc8-886c-4a0b-b8f9-cfdbd6b8416b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"SPR_Trigger",
   "nineSlice":null,
