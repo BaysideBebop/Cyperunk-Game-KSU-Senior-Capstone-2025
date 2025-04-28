@@ -63,6 +63,7 @@
     {"id":{"name":"R_Cave_Child_6","path":"rooms/R_Cave_Child_6/R_Cave_Child_6.yy",},},
     {"id":{"name":"R_Cave_Child_7","path":"rooms/R_Cave_Child_7/R_Cave_Child_7.yy",},},
     {"id":{"name":"R_Cave_Child_8","path":"rooms/R_Cave_Child_8/R_Cave_Child_8.yy",},},
+    {"id":{"name":"R_Cave_Child_9","path":"rooms/R_Cave_Child_9/R_Cave_Child_9.yy",},},
     {"id":{"name":"R_Cave","path":"rooms/R_Cave/R_Cave.yy",},},
     {"id":{"name":"R_Debug1","path":"rooms/R_Debug1/R_Debug1.yy",},},
     {"id":{"name":"R_MainMenu","path":"rooms/R_MainMenu/R_MainMenu.yy",},},
@@ -193,6 +194,7 @@
     {"roomId":{"name":"R_Cave_Child_6","path":"rooms/R_Cave_Child_6/R_Cave_Child_6.yy",},},
     {"roomId":{"name":"R_Cave_Child_7","path":"rooms/R_Cave_Child_7/R_Cave_Child_7.yy",},},
     {"roomId":{"name":"R_Cave_Child_8","path":"rooms/R_Cave_Child_8/R_Cave_Child_8.yy",},},
+    {"roomId":{"name":"R_Cave_Child_9","path":"rooms/R_Cave_Child_9/R_Cave_Child_9.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
