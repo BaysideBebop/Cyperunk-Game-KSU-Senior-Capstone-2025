@@ -99,6 +99,7 @@
     {"id":{"name":"SPR_EBullet","path":"sprites/SPR_EBullet/SPR_EBullet.yy",},},
     {"id":{"name":"SPR_EGun","path":"sprites/SPR_EGun/SPR_EGun.yy",},},
     {"id":{"name":"SPR_Electric_props","path":"sprites/SPR_Electric_props/SPR_Electric_props.yy",},},
+    {"id":{"name":"SPR_Elevator","path":"sprites/SPR_Elevator/SPR_Elevator.yy",},},
     {"id":{"name":"SPR_EnemyDeadPlaceholder","path":"sprites/SPR_EnemyDeadPlaceholder/SPR_EnemyDeadPlaceholder.yy",},},
     {"id":{"name":"SPR_EnemyGun","path":"sprites/SPR_EnemyGun/SPR_EnemyGun.yy",},},
     {"id":{"name":"SPR_EnemyPlaceholder","path":"sprites/SPR_EnemyPlaceholder/SPR_EnemyPlaceholder.yy",},},
