@@ -858,11 +858,13 @@
           0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TS_Crystals","path":"tilesets/TS_Crystals/TS_Crystals.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Crystal_Tiles","depth":3000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Crystal_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":40,"SerialiseWidth":100,"TileCompressedData":[
-          -1033,0,2,884,885,-600,0,4,884,885,886,887,-114,0,4,884,885,886,887,-100,0,4,884,885,886,887,-1494,0,
-          6,892,893,894,895,227,228,-94,0,6,929,930,931,932,264,265,-155,0,8,2272,2273,2274,2275,2276,2277,323,
-          324,-3,0,5,1233,1234,1235,1236,1237,-31,0,9,884,885,886,887,0,884,885,886,887,-3,0,4,884,885,886,887,
-          -37,0,8,2309,2310,2311,2312,2313,2314,360,361,-3,0,5,1270,1271,1272,1273,1274,-84,0,8,2346,2347,2348,
-          2349,2350,2351,2352,2353,-3,0,5,1307,1308,1309,1310,1311,-168,0,
+          -256,0,1,43,-198,0,1,25,-577,0,2,884,885,-13,0,1,3,-388,0,1,2,-74,0,2,321,322,-98,0,2,358,359,-21,0,
+          4,884,885,886,18,-114,0,4,884,885,886,18,-100,0,4,884,885,886,887,-19,0,1,50,-82,0,1,63,-61,0,1,26,-115,
+          0,1,63,-279,0,1,39,-715,0,1,39,-217,0,6,892,893,894,895,227,228,-94,0,6,929,930,931,932,264,265,-155,
+          0,8,2272,2273,2274,2275,2276,2277,323,324,-3,0,5,1233,1234,1235,1236,1237,-31,0,9,884,885,886,887,0,
+          884,885,886,887,-3,0,4,884,885,886,887,-37,0,8,2309,2310,2311,2312,2313,2314,360,361,-3,0,5,1270,1271,
+          1272,1273,1274,-84,0,8,2346,2347,2348,2349,2350,2351,2352,2353,-3,0,5,1307,1308,1309,1310,1311,-168,
+          0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TS_Crystals","path":"tilesets/TS_Crystals/TS_Crystals.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"SaveRoom_2_1","depth":3100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"SaveRoom_2_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":40,"SerialiseWidth":100,"TileCompressedData":[
           -91,-2147483648,-9,0,-91,-2147483648,-9,0,-91,-2147483648,-9,0,-91,-2147483648,-9,0,-91,-2147483648,
