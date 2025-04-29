@@ -20,4 +20,5 @@ switch (state)
 	case PLAYERSTATE.ATTACKSLASH: SCR_PlayerStateAttackSlash(); break;
 	case PLAYERSTATE.RELOAD: SCR_PlayerStateReload(); break;
 	case PLAYERSTATE.HURT: SCR_PlayerStateHurt(); break;
+	case PLAYERSTATE.DASH: SCR_PlayerStateDash(); break;
 }

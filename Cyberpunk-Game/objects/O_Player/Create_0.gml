@@ -17,7 +17,8 @@ enum PLAYERSTATE
 	FREE,
 	ATTACKSLASH,
 	RELOAD,
-	HURT
+	HURT,
+	DASH
 }
 
 grv = 0.3;
@@ -36,3 +37,4 @@ flash = 0;
 idledir = 1;
 
 hascontrol = true;
+playerjumping = false;

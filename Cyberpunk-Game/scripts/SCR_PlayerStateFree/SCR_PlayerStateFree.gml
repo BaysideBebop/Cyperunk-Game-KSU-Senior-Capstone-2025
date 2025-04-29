@@ -57,9 +57,9 @@ if (!place_meeting(x,y+1,O_Wall)) && (canbehit = 1)
 	playerfalling = 1;
 	if (sign(hsp) > 0)
 	{
-	sprite_index = SPR_PlayerFallingRight;
+	sprite_index = SPR_PlayerFallingRightFacingRight;
 	}
-	else sprite_index = SPR_PlayerFallingLeft;
+	else sprite_index = SPR_PlayerFallingLeftFacingLeft;
 }
 else
 {
@@ -111,5 +111,5 @@ else
 
 if (_keyAttack) && (playerfalling == 0) && (isbeinghurt = false) && (global.PlayerSwinging = false) state = PLAYERSTATE.ATTACKSLASH
 
-if (_keyReload) && (playerfalling == 0) && (isbeinghurt = false) && (global.PlayerSwinging = false) state = PLAYERSTATE.RELOAD
+if (_keyReload) && (O_Gun.ammo < 6) && (O_Gun.reserve > 0) && (playerfalling == 0) && (isbeinghurt = false) && (global.PlayerSwinging = false) state = PLAYERSTATE.RELOAD
 }
