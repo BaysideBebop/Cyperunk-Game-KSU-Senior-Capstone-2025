@@ -855,6 +855,7 @@
     {"name":"inst_1E7519EC","path":"rooms/R_Cave_Child_16/R_Cave_Child_16.yy",},
     {"name":"inst_796CAD19","path":"rooms/R_Cave_Child_16/R_Cave_Child_16.yy",},
     {"name":"inst_14C48C4C","path":"rooms/R_Cave_Child_16/R_Cave_Child_16.yy",},
+    {"name":"inst_37041B1D","path":"rooms/R_Cave_Child_16/R_Cave_Child_16.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -1277,6 +1278,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hasweapon","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hp","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":506.0,"y":559.0,},
+        {"$GMRInstance":"v2","%Name":"inst_37041B1D","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37041B1D","objectId":{"name":"O_Trigger","path":"objects/O_Trigger/O_Trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.3958333,"x":-6.0,"y":667.5,},
       ],"layers":[],"name":"Triggers","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Walls","depth":3800,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_207D0622","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_207D0622","path":"rooms/R_Cave/R_Cave.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_207D0622","objectId":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":176.0,},
