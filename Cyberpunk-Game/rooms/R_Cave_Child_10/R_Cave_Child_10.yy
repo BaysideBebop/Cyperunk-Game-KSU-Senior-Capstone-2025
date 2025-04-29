@@ -941,6 +941,7 @@
     {"name":"inst_6031374","path":"rooms/R_Cave_Child_10/R_Cave_Child_10.yy",},
     {"name":"inst_932EC00","path":"rooms/R_Cave_Child_10/R_Cave_Child_10.yy",},
     {"name":"inst_D56FB5C","path":"rooms/R_Cave_Child_10/R_Cave_Child_10.yy",},
+    {"name":"inst_30A531B0","path":"rooms/R_Cave_Child_10/R_Cave_Child_10.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -971,8 +972,9 @@
           0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TS_Mine_props_30tr","path":"tilesets/TS_Mine_props_30tr/TS_Mine_props_30tr.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"MineV4_30","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"MineV4_30","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":66,"SerialiseWidth":100,"TileCompressedData":[
-          -6028,0,1,30,-6,0,1,30,-19,0,1,31,-6,0,1,31,-125,0,-12,46,-88,0,-3,46,-9,76,-87,0,-2,46,-11,76,-86,0,
-          -3,46,-11,76,-82,0,-8,46,-2,76,1,46,-7,76,
+          -1199,0,1,57,-99,0,1,57,-99,0,1,57,-99,0,1,57,-4099,0,1,57,-99,0,1,57,-99,0,1,57,-99,0,1,57,-99,0,1,
+          57,-28,0,1,30,-6,0,1,30,-19,0,1,31,-6,0,1,31,-125,0,-12,46,-88,0,-3,46,-9,76,-87,0,-2,46,-11,76,-86,
+          0,-3,46,-11,76,-82,0,-8,46,-2,76,1,46,-7,76,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TS_MineV4_30","path":"tilesets/TS_MineV4_30/TS_MineV4_30.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Bullets","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Bullets","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Gun","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -1356,6 +1358,7 @@
         {"$GMRInstance":"v2","%Name":"inst_2A6D5D6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_2A6D5D6F","path":"rooms/R_Cave/R_Cave.yy",},"inheritItemSettings":true,"isDnd":false,"name":"inst_2A6D5D6F","objectId":{"name":"O_PlayerHurtbox","path":"objects/O_PlayerHurtbox/O_PlayerHurtbox.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":448.0,},
         {"$GMRInstance":"v2","%Name":"inst_6E3B355E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E3B355E","objectId":{"name":"O_Trigger","path":"objects/O_Trigger/O_Trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1568.0,"y":187.0,},
         {"$GMRInstance":"v2","%Name":"inst_6236BA0F","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6236BA0F","objectId":{"name":"O_Trigger","path":"objects/O_Trigger/O_Trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1579.0,"y":905.0,},
+        {"$GMRInstance":"v2","%Name":"inst_30A531B0","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30A531B0","objectId":{"name":"O_Trigger","path":"objects/O_Trigger/O_Trigger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1584.0,"y":660.0,},
       ],"layers":[],"name":"Triggers","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Walls","depth":3800,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_29487E3F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_29487E3F","path":"rooms/R_Cave/R_Cave.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_29487E3F","objectId":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1504.0,"y":0.0,},
