@@ -5,7 +5,9 @@ global.HPPersist = -1;
 global.AmmoPersist = -1
 global.ReservePersist = -1
 
-window_set_size(1280,720);
+window_set_size(1920,1080);
+window_enable_borderless_fullscreen(true);
+window_set_fullscreen(true);
 
 gui_width = display_get_gui_width();
 gui_height= display_get_gui_height();

@@ -205,8 +205,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"R_MainMenu","path":"rooms/R_MainMenu/R_MainMenu.yy",},},
-    {"roomId":{"name":"R_Cave","path":"rooms/R_Cave/R_Cave.yy",},},
     {"roomId":{"name":"R_Town","path":"rooms/R_Town/R_Town.yy",},},
+    {"roomId":{"name":"R_Cave","path":"rooms/R_Cave/R_Cave.yy",},},
     {"roomId":{"name":"R_Cave_1","path":"rooms/R_Cave_1/R_Cave_1.yy",},},
     {"roomId":{"name":"R_Cave_2","path":"rooms/R_Cave_2/R_Cave_2.yy",},},
     {"roomId":{"name":"R_Cave_3","path":"rooms/R_Cave_3/R_Cave_3.yy",},},
