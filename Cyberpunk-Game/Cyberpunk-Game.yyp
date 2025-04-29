@@ -66,6 +66,8 @@
     {"id":{"name":"R_Cave_Child_15","path":"rooms/R_Cave_Child_15/R_Cave_Child_15.yy",},},
     {"id":{"name":"R_Cave_Child_16","path":"rooms/R_Cave_Child_16/R_Cave_Child_16.yy",},},
     {"id":{"name":"R_Cave_Child_17","path":"rooms/R_Cave_Child_17/R_Cave_Child_17.yy",},},
+    {"id":{"name":"R_Cave_Child_18","path":"rooms/R_Cave_Child_18/R_Cave_Child_18.yy",},},
+    {"id":{"name":"R_Cave_Child_19","path":"rooms/R_Cave_Child_19/R_Cave_Child_19.yy",},},
     {"id":{"name":"R_Cave_Child_4","path":"rooms/R_Cave_Child_4/R_Cave_Child_4.yy",},},
     {"id":{"name":"R_Cave_Child_5","path":"rooms/R_Cave_Child_5/R_Cave_Child_5.yy",},},
     {"id":{"name":"R_Cave_Child_6","path":"rooms/R_Cave_Child_6/R_Cave_Child_6.yy",},},
@@ -211,6 +213,8 @@
     {"roomId":{"name":"R_Cave_Child_15","path":"rooms/R_Cave_Child_15/R_Cave_Child_15.yy",},},
     {"roomId":{"name":"R_Cave_Child_16","path":"rooms/R_Cave_Child_16/R_Cave_Child_16.yy",},},
     {"roomId":{"name":"R_Cave_Child_17","path":"rooms/R_Cave_Child_17/R_Cave_Child_17.yy",},},
+    {"roomId":{"name":"R_Cave_Child_18","path":"rooms/R_Cave_Child_18/R_Cave_Child_18.yy",},},
+    {"roomId":{"name":"R_Cave_Child_19","path":"rooms/R_Cave_Child_19/R_Cave_Child_19.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
