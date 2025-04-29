@@ -33,8 +33,13 @@ hitfrom = 0;
 canreload = 0;
 reloadrate = 30;
 
+candash = true;
+dashduration = 0;
+
 flash = 0;
 idledir = 1;
 
 hascontrol = true;
-playerjumping = false;
+
+fade_time = 5;
+fade_timer = fade_time;

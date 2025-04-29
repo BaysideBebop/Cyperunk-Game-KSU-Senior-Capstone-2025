@@ -7,6 +7,7 @@ if (hascontrol)
 	var _keyJump = keyboard_check(vk_space) or keyboard_check(ord("W")) or keyboard_check(vk_up);
 	var _keyAttack = (mouse_check_button(mb_right))
 	var _keyReload = keyboard_check(ord("R"));
+	var _keyDash = keyboard_check(vk_shift);
 }
 else
 {
@@ -15,11 +16,13 @@ else
 	var _keyJump = 0;
 	var _keyAttack = 0;
 	var _keyReload = 0;
+	var _keyDash = 0;
 }
 
 hsp = (_keyRight - _keyLeft) * hspWalk;
 
 vsp = vsp + grv;
+candash = true;
 global.GunLayer = idledir
 
 if (canJump-- > 0) && (_keyJump) && (!place_meeting(x, y-5, O_Wall))
@@ -36,6 +39,7 @@ if (place_meeting(x + hsp*2, y, O_Wall))
 		if (!place_meeting(x + hsp, y, O_Wall)) x += hsp;
 	}
 	hsp = 0;
+	candash = false;
 }
 x += hsp;
 
@@ -112,4 +116,6 @@ else
 if (_keyAttack) && (playerfalling == 0) && (isbeinghurt = false) && (global.PlayerSwinging = false) state = PLAYERSTATE.ATTACKSLASH
 
 if (_keyReload) && (O_Gun.ammo < 6) && (O_Gun.reserve > 0) && (playerfalling == 0) && (isbeinghurt = false) && (global.PlayerSwinging = false) state = PLAYERSTATE.RELOAD
+
+if (_keyDash) && (hsp != 0) && (playerfalling == 0) && (isbeinghurt = false) && (global.PlayerSwinging = false) && (candash = true) && (hascontrol = true) state = PLAYERSTATE.DASH
 }

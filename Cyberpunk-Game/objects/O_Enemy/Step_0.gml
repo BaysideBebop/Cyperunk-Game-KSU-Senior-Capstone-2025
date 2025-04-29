@@ -1,6 +1,8 @@
 vsp = vsp + grv;
 
 //Don't walk off edges
+if (sign(hsp) > 0) looking = 1;
+if (sign(hsp) < 0) looking = -1;
 if (instance_exists(O_Player))
 {
 	if (point_distance(O_Player.x,O_Player.y,x-32,y) < 400) && (!collision_line(x,y,O_Player.x,O_Player.y,O_Wall,false,false)) && (hasweapon)
