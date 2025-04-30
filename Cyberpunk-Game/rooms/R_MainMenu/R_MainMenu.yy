@@ -11,6 +11,7 @@
     {"name":"inst_7AD7E9E5","path":"rooms/R_MainMenu/R_MainMenu.yy",},
     {"name":"inst_237EE144","path":"rooms/R_MainMenu/R_MainMenu.yy",},
     {"name":"inst_658D9F06","path":"rooms/R_MainMenu/R_MainMenu.yy",},
+    {"name":"inst_28FC512D","path":"rooms/R_MainMenu/R_MainMenu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,6 +23,7 @@
         {"$GMRInstance":"v2","%Name":"inst_7AD7E9E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7AD7E9E5","objectId":{"name":"O_Menu","path":"objects/O_Menu/O_Menu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":608.0,},
         {"$GMRInstance":"v2","%Name":"inst_615C249","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_615C249","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":320.0,},
         {"$GMRInstance":"v2","%Name":"inst_237EE144","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_237EE144","objectId":{"name":"O_MenuCamera","path":"objects/O_MenuCamera/O_MenuCamera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":1024.0,},
+        {"$GMRInstance":"v2","%Name":"inst_28FC512D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28FC512D","objectId":{"name":"O_Logo","path":"objects/O_Logo/O_Logo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"SPR_MainMenuScroll","path":"sprites/SPR_MainMenuScroll/SPR_MainMenuScroll.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
