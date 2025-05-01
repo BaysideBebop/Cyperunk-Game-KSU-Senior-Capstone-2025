@@ -1,5 +1,7 @@
 /// @description Move to next room
 
+global.PrevRoom = room
+
 with (O_Player)
 {
 		global.HasPreviousStats = true;

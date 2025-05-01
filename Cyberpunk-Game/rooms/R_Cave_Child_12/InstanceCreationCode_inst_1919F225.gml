@@ -1,0 +1,15 @@
+if (global.PrevRoom = R_Cave_Child_16)
+{
+ x = 1504
+ y = 352
+}
+if (global.PrevRoom = R_Cave_Child_9)
+{
+ x = 128
+ y = 128
+}
+if (global.PrevRoom = R_Cave_Child_13)
+{
+ x = 576
+ y = 832
+}

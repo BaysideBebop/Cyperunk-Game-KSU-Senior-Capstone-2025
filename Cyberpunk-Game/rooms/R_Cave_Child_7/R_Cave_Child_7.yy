@@ -14,7 +14,6 @@
     {"name":"inst_2CF21B89","path":"rooms/R_Cave_Child_7/R_Cave_Child_7.yy",},
     {"name":"inst_70A89BBE","path":"rooms/R_Cave_Child_7/R_Cave_Child_7.yy",},
     {"name":"inst_7AA11F1","path":"rooms/R_Cave_Child_7/R_Cave_Child_7.yy",},
-    {"name":"inst_79358B93","path":"rooms/R_Cave_Child_7/R_Cave_Child_7.yy",},
     {"name":"inst_4A20963F","path":"rooms/R_Cave_Child_7/R_Cave_Child_7.yy",},
     {"name":"inst_1570CF47","path":"rooms/R_Cave_Child_7/R_Cave_Child_7.yy",},
     {"name":"inst_2A6D5D6F","path":"rooms/R_Cave_Child_7/R_Cave_Child_7.yy",},
@@ -544,10 +543,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hasweapon","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hp","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":792.0,"y":473.0,},
-        {"$GMRInstance":"v2","%Name":"inst_79358B93","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_79358B93","path":"rooms/R_Cave/R_Cave.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_79358B93","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hasweapon","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hp","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1204.0,"y":57.0,},
         {"$GMRInstance":"v2","%Name":"inst_4A20963F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_4A20963F","path":"rooms/R_Cave/R_Cave.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_4A20963F","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hasweapon","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},"propertyId":{"name":"hp","path":"objects/O_Enemy/O_Enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},

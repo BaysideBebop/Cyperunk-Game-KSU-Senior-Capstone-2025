@@ -45,6 +45,7 @@
     {"id":{"name":"O_DeadPlayer","path":"objects/O_DeadPlayer/O_DeadPlayer.yy",},},
     {"id":{"name":"O_EBullet","path":"objects/O_EBullet/O_EBullet.yy",},},
     {"id":{"name":"O_EGun","path":"objects/O_EGun/O_EGun.yy",},},
+    {"id":{"name":"O_EndTrigger","path":"objects/O_EndTrigger/O_EndTrigger.yy",},},
     {"id":{"name":"O_Enemy","path":"objects/O_Enemy/O_Enemy.yy",},},
     {"id":{"name":"O_Gun","path":"objects/O_Gun/O_Gun.yy",},},
     {"id":{"name":"O_HealthPickup","path":"objects/O_HealthPickup/O_HealthPickup.yy",},},
@@ -183,6 +184,7 @@
     {"id":{"name":"SPR_Trigger","path":"sprites/SPR_Trigger/SPR_Trigger.yy",},},
     {"id":{"name":"SPR_TumbleWeed","path":"sprites/SPR_TumbleWeed/SPR_TumbleWeed.yy",},},
     {"id":{"name":"SPR_TumbleWeedToss","path":"sprites/SPR_TumbleWeedToss/SPR_TumbleWeedToss.yy",},},
+    {"id":{"name":"Sprite91","path":"sprites/Sprite91/Sprite91.yy",},},
     {"id":{"name":"TS_Boss_Room_Tiles","path":"tilesets/TS_Boss_Room_Tiles/TS_Boss_Room_Tiles.yy",},},
     {"id":{"name":"TS_Cave","path":"tilesets/TS_Cave/TS_Cave.yy",},},
     {"id":{"name":"TS_Crystals","path":"tilesets/TS_Crystals/TS_Crystals.yy",},},
@@ -208,7 +210,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"R_MainMenu","path":"rooms/R_MainMenu/R_MainMenu.yy",},},
     {"roomId":{"name":"R_Town","path":"rooms/R_Town/R_Town.yy",},},
-    {"roomId":{"name":"R_Cave","path":"rooms/R_Cave/R_Cave.yy",},},
     {"roomId":{"name":"R_Cave_1","path":"rooms/R_Cave_1/R_Cave_1.yy",},},
     {"roomId":{"name":"R_Cave_2","path":"rooms/R_Cave_2/R_Cave_2.yy",},},
     {"roomId":{"name":"R_Cave_3","path":"rooms/R_Cave_3/R_Cave_3.yy",},},
@@ -229,6 +230,7 @@
     {"roomId":{"name":"R_Cave_Child_18","path":"rooms/R_Cave_Child_18/R_Cave_Child_18.yy",},},
     {"roomId":{"name":"R_Cave_Child_19","path":"rooms/R_Cave_Child_19/R_Cave_Child_19.yy",},},
     {"roomId":{"name":"R_Debug1","path":"rooms/R_Debug1/R_Debug1.yy",},},
+    {"roomId":{"name":"R_Cave","path":"rooms/R_Cave/R_Cave.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
