@@ -31,7 +31,9 @@ if (menu_x > gui_width + 150) && (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-	case 1: default: SCR_SlideTransition(TRANS_MODE.NEXT); break;
+	case 3: default: SCR_SlideTransition(TRANS_MODE.NEXT); break;
+	case 2: SCR_SlideTransition(TRANS_MODE.GOTO,R_Controls); break;
+	case 1: SCR_SlideTransition(TRANS_MODE.GOTO,R_Credits); break;
 	case 0: game_end(); break;
 	}
 }
