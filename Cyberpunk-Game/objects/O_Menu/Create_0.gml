@@ -1,5 +1,9 @@
 /// @description GUI/Vars/Menu
 
+audio_group_stop_all(audiogroup_default);
+
+audio_play_sound(SND_SpaghettiWestern,1,1)
+
 global.HasPreviousStats = false;
 global.HPPersist = -1;
 global.AmmoPersist = -1

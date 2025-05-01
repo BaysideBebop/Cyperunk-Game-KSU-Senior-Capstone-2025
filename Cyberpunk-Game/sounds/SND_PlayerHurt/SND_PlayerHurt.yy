@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"SND_PlayerShot",
+  "%Name":"SND_PlayerHurt",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.1730385,
-  "name":"SND_PlayerShot",
+  "duration":5.142857,
+  "name":"SND_PlayerHurt",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"SND_PlayerShot.wav",
-  "type":1,
-  "volume":1.0,
+  "soundFile":"SND_PlayerHurt.wav",
+  "type":0,
+  "volume":0.6,
 }

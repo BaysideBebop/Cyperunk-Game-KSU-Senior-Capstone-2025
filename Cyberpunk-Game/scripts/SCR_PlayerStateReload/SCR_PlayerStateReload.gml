@@ -13,6 +13,8 @@ function SCR_PlayerStateReload()
 		sprite_index = SPR_PlayerReloadRight
 		image_index = 0
 		image_speed = 1
+		audio_sound_pitch(SND_PlayerReload,choose(0.8,1.0,1.2));
+		audio_play_sound(SND_PlayerReload,5,false);
 		canreload = 0
 		reloadrate = 5000
 		O_Gun.ammo = O_Gun.ammo + 1
@@ -24,6 +26,8 @@ function SCR_PlayerStateReload()
 		sprite_index = SPR_PlayerReloadLeft
 		image_index = 0
 		image_speed = 1
+		audio_sound_pitch(SND_PlayerReload,choose(0.8,1.0,1.2));
+		audio_play_sound(SND_PlayerReload,5,false);
 		canreload = 0
 		reloadrate = 5000
 		O_Gun.ammo = O_Gun.ammo + 1

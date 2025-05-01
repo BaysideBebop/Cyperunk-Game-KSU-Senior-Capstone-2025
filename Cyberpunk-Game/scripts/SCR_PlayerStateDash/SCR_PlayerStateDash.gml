@@ -46,6 +46,8 @@ y += vsp;
 	if (candash = true) && (global.PlayerSwinging = false)
 	{
 		candash = false;
+		audio_sound_pitch(SND_PlayerDash,choose(0.8,1.0,1.2));
+		audio_play_sound(SND_PlayerDash,5,false);
 		hascontrol = 0;
 		canbehit = 0;
 		hsp = hsp*1.25;

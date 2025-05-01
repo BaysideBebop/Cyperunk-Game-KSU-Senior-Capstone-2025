@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"SND_PlayerShot",
+  "%Name":"SND_PlayerDash",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.1730385,
-  "name":"SND_PlayerShot",
+  "duration":0.15365079,
+  "name":"SND_PlayerDash",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"SND_PlayerShot.wav",
+  "soundFile":"SND_PlayerDash.wav",
   "type":1,
-  "volume":1.0,
+  "volume":0.7,
 }

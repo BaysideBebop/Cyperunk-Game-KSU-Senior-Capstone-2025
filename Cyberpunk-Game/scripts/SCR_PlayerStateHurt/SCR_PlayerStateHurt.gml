@@ -4,6 +4,9 @@ function SCR_PlayerStateHurt()
 {
 	if (canbehit = 1)
 	{
+		layer_set_visible("Gun",true)
+		layer_set_visible("LowerGun",true)
+		mask_index = SPR_PlayerWalkRightLookRight
 		isbeinghurt = true;
 		vsp = vsp + grv;
 		y += vsp;
@@ -31,16 +34,16 @@ function SCR_PlayerStateHurt()
 		if (canbehit = 1) && (playerhp != 0)
 		{
 			playerfalling = 0;
-			canbehit = 0
-			playerhp -= 1
-			flash = 3
+			canbehit = 0;
+			playerhp -= 1;
+			flash = 3;
 		
 			alarm[0] = 0.33*room_speed;
-			vsp = -3
-			hsp = -hsp
+			vsp = -3;
+			hsp = -hsp;
 			hascontrol = false;
-			if (idledir > 0) sprite_index = SPR_PlayerHurtRight
-			if (idledir < 0) sprite_index = SPR_PlayerHurtLeft
+			audio_sound_pitch(SND_PlayerHurt,choose(0.8,1.0,1.2));
+			audio_play_sound(SND_PlayerHurt,5,false);
 		}
 	}
 	else state = PLAYERSTATE.FREE;

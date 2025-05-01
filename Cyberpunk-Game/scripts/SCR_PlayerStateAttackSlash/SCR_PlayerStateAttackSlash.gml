@@ -13,6 +13,8 @@ function SCR_PlayerStateAttackSlash()
 		mask_index = SPR_PlayerSlashAttackRightHB;
 		image_index = 0;
 		image_speed = 1;
+		audio_sound_pitch(SND_PlayerSwing,choose(0.8,1.0,1.2));
+		audio_play_sound(SND_PlayerSwing,5,false);
 		ds_list_clear(hitByAttack);
 	}
 	if (sprite_index != SPR_PlayerSlashAttackLeft) && (global.GunLayer < 0)
@@ -21,6 +23,8 @@ function SCR_PlayerStateAttackSlash()
 		mask_index = SPR_PlayerSlashAttackLeftHB;
 		image_index = 0;
 		image_speed = 1;
+		audio_sound_pitch(SND_PlayerSwing,choose(0.8,1.0,1.2));
+		audio_play_sound(SND_PlayerSwing,5,false);
 		ds_list_clear(hitByAttack);
 	}
 	
